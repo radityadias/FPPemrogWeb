@@ -8,4 +8,14 @@
     width: 100rem;
     height: 25rem;
 }
-
+.nav-item hover{
+    background-color: grey;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+#searchForm {
+    display: none;
+  }
+  
