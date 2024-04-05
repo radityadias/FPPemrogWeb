@@ -1,21 +1,94 @@
-.logo
-{
-    width: 90px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
 }
 
-.carousel-item img
-{ 
-    width: 100rem;
-    height: 25rem;
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
 }
-.nav-item hover{
-    background-color: grey;
+
+.navbar.sticky {
+  top: -60px;
 }
-.content{
-    display: flex;
-    justify-content: flex-start;
+
+.navbar .logo {
+  width: 50px;
+}
+
+.nav-item:hover {
+  background-color: grey;
+}
+
+.d-flex {
+  margin-left: 450px;
+}
+
+/* SLIDER */
+.carousel {
+  width: 80%; /* Lebar slider */
+  margin: auto; /* Tengahkan slider */
+}
+
+.carousel-inner {
+  border-radius: 15px; /* Mengatur tepi (border) menjadi bulat */
+  overflow: hidden; /* Menghilangkan bagian yang terpotong jika gambar lebih besar dari kontainer */
+  margin-top: 90px;
+}
+
+.carousel-item {
+  text-align: center; /* Untuk mengatur konten ke tengah */
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 15px;
+  max-height: 600px;
+}
+
+.carousel-caption {
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.carousel-item:hover .carousel-caption {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: #fff;
+}
+
+/* ISI HP */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.judul {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.content .judul {
+  text-align: center;
 }
 #searchForm {
-    display: none;
-  }
-  
+  display: none;
+}
