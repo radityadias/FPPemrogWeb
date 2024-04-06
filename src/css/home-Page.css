@@ -23,8 +23,15 @@ html {
   top: -60px;
 }
 
+.navbar-brand {
+  padding: 0;
+}
 .navbar .logo {
-  width: 50px;
+  width: 100px; /* Atur lebar gambar */
+  height: auto; /* Biarkan ketinggian mengikuti proporsi asli */
+  display: block; /* Pastikan gambar muncul sebagai blok */
+  margin-bottom: -20px;
+  margin-top: -10px;
 }
 
 .nav-item:hover {
