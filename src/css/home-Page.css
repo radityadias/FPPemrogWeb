@@ -67,6 +67,9 @@ html {
 .carousel-caption {
   opacity: 0;
   transition: 0.8s;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .carousel-item:hover .carousel-caption {
@@ -88,6 +91,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .judul {
   margin-top: 5px;
   text-align: center;
@@ -96,6 +100,7 @@ html {
 .content .judul {
   text-align: center;
 }
+
 #searchForm {
   display: none;
 }
