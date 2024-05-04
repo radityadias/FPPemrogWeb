@@ -140,3 +140,64 @@ html {
 .content {
   padding-bottom: 50px; /* Tambahkan padding-bottom untuk menciptakan jarak antara konten dan footer */
 }
+
+/* Form Control*/
+
+#con-form {
+  border: 1px solid black;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col {
+  padding: 5px;
+  margin-top: 10px;
+  height: auto;
+}
+
+#formControl .col {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 15px;
+  margin: 10px;
+}
+
+#formControl select.form-select {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 10px;
+}
+
+#formControl .row>.col#last-col {
+  border: none;
+  box-shadow: none;
+}
+
+#formControl input.form-control {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+#submit-btn {
+  width: 185px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #0056b3;
+}
+
+#submit-btn:active {
+  background-color: #004080;
+}

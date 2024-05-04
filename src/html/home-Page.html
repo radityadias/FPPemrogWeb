@@ -125,6 +125,63 @@
 
   </div>
 
+  <!-- Form Controls -->
+<div class="container text-center" id="con-form" >
+  <div class="row" id="formControl">
+    <!-- First column -->
+    <div class="col">
+      <label for="pilihKota" class="form-label">Kota Sewa : </label>
+      <select class="form-select" aria-label="Default select example" id="pilih-kota" placeholder="name@example.com">
+        <option selected>Pilih Kota</option>
+        <option value="1">Yogyakarta</option>
+        <option value="2">Solo</option>
+        <option value="3">Jakarta</option>
+        <option value="3">Semarang</option>
+        <option value="3">Bandung</option>
+        <option value="3">Bali</option>
+
+      </select>
+    </div>
+    <!-- Second column with date picker -->
+    <div class="col">
+      <form>
+        <div class="mb-3">
+          <label for="datePicker" id="pilih-tanggal" class="form-label">Pilih Tanggal : </label>
+          <input type="date" id="datePicker" class="form-control">
+        </div>
+      </form>
+    </div>
+    <!-- Third column with select menus -->
+    <div class="col">
+      <label for="durasiSewa" class="form-label">Durasi Sewa : </label>
+      <select class="form-select" id="durasi-sewa" aria-label="Default select example" >
+        <option value="1">1 Hari</option>
+        <option value="2">2 Hari</option>
+        <option value="3">3 Hari</option>
+        <option value="3">4 Hari</option>
+        <option value="3">5 Hari</option>
+      </select>
+    </div>
+    <!-- Fourth column with another select menu -->
+    <div class="col">
+      <label for="pilihDurasi" class="form-label">Jam Mulai : </label>
+      <select class="form-select" id="pilih-jam" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">05:00</option>
+        <option value="2">06:00</option>
+        <option value="3">07:00</option>
+        <option value="3">08:00</option>
+        <option value="3">09:00</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col" id="last-col">
+        <button type="button" class="btn btn-secondary" id="submit-btn">Pesan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- Konten -->
   <!-- Konten -->
   <div class="content">
