@@ -43,37 +43,36 @@ html {
 }
 
 /* SLIDER */
+
 .carousel {
-  width: 80%; /* Lebar slider */
-  margin: auto; /* Tengahkan slider */
+  max-width: 80%; /* Maksimum lebar carousel */
+  margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .carousel-inner {
-  border-radius: 15px; /* Mengatur tepi (border) menjadi bulat */
-  overflow: hidden; /* Menghilangkan bagian yang terpotong jika gambar lebih besar dari kontainer */
-  margin-top: 90px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 100px;
+  position: relative;
 }
 
 .carousel-item {
-  text-align: center; /* Untuk mengatur konten ke tengah */
+  text-align: center;
+  position: relative;
 }
 
 .carousel-item img {
   width: 100%;
   border-radius: 15px;
   max-height: 600px;
+  transition: transform 0.8s ease;
 }
 
 .carousel-caption {
   opacity: 0;
   transition: 0.8s;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.carousel-item:hover .carousel-caption {
-  opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0 0 15px 15px;
   position: absolute;
@@ -82,6 +81,23 @@ html {
   right: 0;
   padding: 10px;
   color: #fff;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.1); /* Perbesar gambar saat cursor di atasnya */
+}
+
+.carousel-item:hover .carousel-caption {
+  opacity: 1;
+}
+
+/* Tambahkan animasi untuk menampilkan caption */
+.carousel-caption {
+  transform: translateY(100%); /* Sembunyikan caption di bawah */
+}
+
+.carousel-item:hover .carousel-caption {
+  transform: translateY(0); /* Tampilkan caption saat hover */
 }
 
 /* ISI HP */
@@ -96,7 +112,8 @@ html {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .content .judul {
@@ -105,4 +122,21 @@ html {
 
 #searchForm {
   display: none;
+}
+
+.card {
+  height: 100%; /* Buat tinggi card menjadi 100% */
+}
+
+.card-img-top {
+  height: 300px; /* Atur tinggi gambar sesuai kebutuhan */
+  object-fit: cover; /* Hindari gambar menjadi terlalu besar atau terlalu kecil */
+}
+
+.card-body {
+  text-align: center; /* Pusatkan teks di dalam card */
+}
+
+.content {
+  padding-bottom: 50px; /* Tambahkan padding-bottom untuk menciptakan jarak antara konten dan footer */
 }
