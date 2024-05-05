@@ -27,7 +27,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto"> 
+          <ul class="navbar-nav ms-auto">
             <!-- iphone -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
@@ -40,7 +40,7 @@
                 <li><a href="#" class="dropdown-item">Iphone 15</a></li>
               </ul>
             </li>
-    
+
             <!-- Xiaomi -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
@@ -53,7 +53,7 @@
                 <li><a href="#" class="dropdown-item">Redmi Note 13 Pro </a></li>
               </ul>
             </li>
-    
+
             <!-- Infinix -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
@@ -73,8 +73,8 @@
         </div>
       </div>
     </nav>
-    
-    
+
+
   </header>
 
   <!-- Image Slider -->
@@ -100,209 +100,266 @@
         <img src="../../img/promo (5).jpg" alt="test2" />
       </div>
     </div>
-
   </div>
+  <!-- Image Slider END-->
 
   <!-- Form Controls -->
-<div class="container text-center" id="con-form" >
-  <div class="row" id="formControl">
-    <!-- First column -->
-    <div class="col">
-      <label for="pilihKota" class="form-label">Kota Sewa : </label>
-      <select class="form-select" aria-label="Default select example" id="pilih-kota" placeholder="name@example.com">
-        <option selected>Pilih Kota</option>
-        <option value="1">Yogyakarta</option>
-        <option value="2">Solo</option>
-        <option value="3">Jakarta</option>
-        <option value="3">Semarang</option>
-        <option value="3">Bandung</option>
-        <option value="3">Bali</option>
+  <div class="container text-center" id="con-form">
+    <div class="row" id="formControl">
+      <!-- First column -->
+      <div class="col">
+        <label for="pilihKota" class="form-label">Kota Sewa : </label>
+        <select class="form-select" aria-label="Default select example" id="pilih-kota" placeholder="name@example.com">
+          <option selected>Pilih Kota</option>
+          <option value="1">Yogyakarta</option>
+          <option value="2">Solo</option>
+          <option value="3">Jakarta</option>
+          <option value="3">Semarang</option>
+          <option value="3">Bandung</option>
+          <option value="3">Bali</option>
 
-      </select>
-    </div>
-    <!-- Second column with date picker -->
-    <div class="col">
-      <form>
-        <div class="mb-3">
-          <label for="datePicker" id="pilih-tanggal" class="form-label">Pilih Tanggal : </label>
-          <input type="date" id="datePicker" class="form-control">
+        </select>
+      </div>
+      <!-- Second column with date picker -->
+      <div class="col">
+        <form>
+          <div class="mb-3">
+            <label for="datePicker" id="pilih-tanggal" class="form-label">Pilih Tanggal : </label>
+            <input type="date" id="datePicker" class="form-control">
+          </div>
+        </form>
+      </div>
+      <!-- Third column with select menus -->
+      <div class="col">
+        <label for="durasiSewa" class="form-label">Durasi Sewa : </label>
+        <select class="form-select" id="durasi-sewa" aria-label="Default select example">
+          <option value="1">1 Hari</option>
+          <option value="2">2 Hari</option>
+          <option value="3">3 Hari</option>
+          <option value="3">4 Hari</option>
+          <option value="3">5 Hari</option>
+        </select>
+      </div>
+      <!-- Fourth column with another select menu -->
+      <div class="col">
+        <label for="pilihDurasi" class="form-label">Jam Mulai : </label>
+        <select class="form-select" id="pilih-jam" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">05:00</option>
+          <option value="2">06:00</option>
+          <option value="3">07:00</option>
+          <option value="3">08:00</option>
+          <option value="3">09:00</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col" id="last-col">
+          <button type="button" class="btn btn-secondary" id="submit-btn">Pesan</button>
         </div>
-      </form>
-    </div>
-    <!-- Third column with select menus -->
-    <div class="col">
-      <label for="durasiSewa" class="form-label">Durasi Sewa : </label>
-      <select class="form-select" id="durasi-sewa" aria-label="Default select example" >
-        <option value="1">1 Hari</option>
-        <option value="2">2 Hari</option>
-        <option value="3">3 Hari</option>
-        <option value="3">4 Hari</option>
-        <option value="3">5 Hari</option>
-      </select>
-    </div>
-    <!-- Fourth column with another select menu -->
-    <div class="col">
-      <label for="pilihDurasi" class="form-label">Jam Mulai : </label>
-      <select class="form-select" id="pilih-jam" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">05:00</option>
-        <option value="2">06:00</option>
-        <option value="3">07:00</option>
-        <option value="3">08:00</option>
-        <option value="3">09:00</option>
-      </select>
-    </div>
-    <div class="row">
-      <div class="col" id="last-col">
-        <button type="button" class="btn btn-secondary" id="submit-btn">Pesan</button>
       </div>
     </div>
   </div>
-</div>
+  <!-- Form Controls END-->
 
   <!-- Konten -->
-<!-- Konten -->
-<div class="container" id="judul">
-  <div class  ="wrapper-judul">
-    <div class="container">
-      <h1> <b>SOLUSI TERBAIK MENEMANI PERJALANAN ANDA</b></h1>
-      <p>Kami mengerti bahwa setiap orang memiliki kebutuhan transportasi yang beragam. 
-       Karena itu kami menawarkan layanan sewa berbahai kendaraan sebagai solusi untuk memenuhi kebutuhan transportasi kalian
-      </p>
+  <div class="container" id="judul">
+    <div class="wrapper-judul">
+      <div class="container">
+        <h1> <b>SOLUSI TERBAIK MENEMANI PERJALANAN ANDA</b></h1>
+        <p>Kami mengerti bahwa setiap orang memiliki kebutuhan transportasi yang beragam.
+          Karena itu kami menawarkan layanan sewa berbahai kendaraan sebagai solusi untuk memenuhi kebutuhan
+          transportasi kalian
+        </p>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="container" id="rekomendasi">
-  <div class="wrapper-daftar">
-    <div class="container">
-      <h2>Daftar Mobil</h2>
+  <div class="container" id="rekomendasi">
+    <div class="wrapper-daftar">
+      <div class="container">
+        <h2>Daftar Mobil</h2>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="container" id="card">
-  <div class="wrapper-card">
-    <div class="container text-center">
-      <div class="row row-cols-4">
-        <div class="col">
-          <div class="card">
-          <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
-            <div class="card-body">
-              <h6>Nama Mobil</h6>
-              <button type="button" class="btn btn-primary">Primary</button>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+  <div class="container" id="card">
+    <div class="wrapper-card">
+      <div class="container text-center">
+        <div class="row row-cols-4">
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
               <div class="card-body">
                 <h6>Nama Mobil</h6>
                 <button type="button" class="btn btn-primary">Primary</button>
               </div>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
               <div class="card-body">
                 <h6>Nama Mobil</h6>
                 <button type="button" class="btn btn-primary">Primary</button>
               </div>
-          </div>  
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
               <div class="card-body">
                 <h6>Nama Mobil</h6>
                 <button type="button" class="btn btn-primary">Primary</button>
               </div>
-          </div> 
-       </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+              <div class="card-body">
+                <h6>Nama Mobil</h6>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Konten -->
+  <!-- Konten END -->
 
-<!-- Tentang Kami -->
-
-<div class="container" id="tentang-kami">
-  <div class="wrapper-us-flex">
-    <img src="../../img/iphone-15-pro-max.avif" alt="">
-  </div>
-  <div class="wrapper-about-flex">
-    <div class="row">
-      <div class="col">
-        <div class="card" style="width: 18rem;" id="card-about">
-          <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+  <!-- Tentang Kami -->
+  <div class="container" id="tentang-kami">
+    <div class="wrapper-us-flex">
+      <img src="../../img/iphone-15-pro-max.avif" alt="">
+    </div>
+    <div class="wrapper-about-flex">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="card-about">
+            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
             <div class="card-body">
               <h3>Tentang Kami</h3>
               <h6>auwerfuiabfiuabfigubarifbuaiwergfb</h6>
             </div>
           </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;" id="card-about">
-          <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="card-about">
+            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
             <div class="card-body">
               <h3>Tentang Kami</h3>
               <h6>auwerfuiabfiuabfigubarifbuaiwergfb</h6>
             </div>
           </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;" id="card-about">
-          <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="card-about">
+            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
             <div class="card-body">
               <h3>Tentang Kami</h3>
               <h6>auwerfuiabfiuabfigubarifbuaiwergfb</h6>
             </div>
           </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;" id="card-about">
-          <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="card-about">
+            <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
             <div class="card-body">
               <h3>Tentang Kami</h3>
               <h6>auwerfuiabfiuabfigubarifbuaiwergfb</h6>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- Tentang Kami END -->
 
-<!-- Tentang Kami -->
-s
-<footer class="bg-dark text-white pt-5 pb-4">
-  <div class="container text-center text-md-left">
-    <div class="row text-center text-md-left">
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Company Name</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Product</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-
-    </div>
-    <div class="row text-center">
-      <div class="col">
-        <hr>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col">
-        <h5>© Cobuddy 2024</h5>
+  <!-- Berita -->
+  <div class="container" id="judul-berita">
+    <div class="wrapper-judul-berita">
+      <div class="container">
+        <h1> Berita & Informasi</h1>
+        <p>Ketahui informasi tempat yang kece abis dan berita yang bermanfaat melalui artikel-artikel kami
+        </p>
       </div>
     </div>
   </div>
-</footer>
+
+  <div class="container" id="berita">
+    <div class="wrapper-berita">
+      <div class="container text-left">
+        <div class="row ">
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+              <div class="card-body">
+                <h5>Nama Mobil</h5>
+                <p>Yogyakarta Berada di Jawa Tengah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+              <div class="card-body">
+                <h5>Nama Mobil</h5>
+                <p>Yogyakarta Berada di Jawa Tengah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+              <div class="card-body">
+                <h5>Nama Mobil</h5>
+                <p>Yogyakarta Berada di Jawa Tengah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../../img/mobil.jpg" class="card-img-active" alt="...">
+              <div class="card-body">
+                <h5>Nama Mobil</h5>
+                <p>Yogyakarta Berada di Jawa Tengah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Berita END-->
+
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Company Name</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Product</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+      </div>
+      <div class="row text-center">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col">
+          <h5>© Cobuddy 2024</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
 
 
