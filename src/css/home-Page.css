@@ -34,6 +34,11 @@ html {
   margin-top: -10px;
 }
 
+.dropdown{
+  margin-right: 20px;
+  text-align: right;
+}
+
 .nav-item:hover {
   background-color: grey;
 }
@@ -70,7 +75,7 @@ html {
   transition: transform 0.8s ease;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   opacity: 0;
   transition: 0.8s;
   background-color: rgba(0, 0, 0, 0.5);
@@ -81,7 +86,7 @@ html {
   right: 0;
   padding: 10px;
   color: #fff;
-}
+} */
 
 /* .carousel-item:hover img {
   transform: scale(1.1); /* Perbesar gambar saat cursor di atasnya 
