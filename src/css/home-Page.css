@@ -225,10 +225,7 @@ html {
   padding: 10px;
   box-sizing: border-box;
 }
-.wrapper-about-flex img {
-  border: 0px solid black;
-  border-radius: 10px;
-}
+
 .wrapper-us-flex img {
   width: 75%;
   border-radius: 40px;
@@ -263,10 +260,28 @@ html {
 
 #berita .card-body {
   text-align: left;
-  padding: 0;
   margin-top: 5px;
   height: 100px;
   overflow: hidden;
+}
+
+.link-berita {
+  text-decoration: none;
+}
+
+#berita .col:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#berita h5:hover {
+  color: rgb(0, 191, 255);
+}
+
+#berita .card-img-active {
+  margin-left: 15px;
 }
 
 #berita img {
