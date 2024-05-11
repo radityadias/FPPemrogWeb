@@ -1,98 +1,110 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: top 0.3s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
 }
 
 .navbar.sticky {
-    top: -60px;
+  top: -60px;
 }
 
 .navbar-brand {
-    padding: 0;
+  padding: 0;
 }
 
 .navbar .logo {
-    width: 100px;
-    /* Atur lebar gambar */
-    height: auto;
-    /* Biarkan ketinggian mengikuti proporsi asli */
-    display: block;
-    /* Pastikan gambar muncul sebagai blok */
-    margin-bottom: -20px;
-    margin-top: -10px;
+  width: 100px;
+  /* Atur lebar gambar */
+  height: auto;
+  /* Biarkan ketinggian mengikuti proporsi asli */
+  display: block;
+  /* Pastikan gambar muncul sebagai blok */
+  margin-bottom: -20px;
+  margin-top: -10px;
 }
 
 .dropdown {
-    margin-right: auto;
-    text-align: right;
+  margin-right: auto;
+  text-align: right;
 }
 
 .nav-item {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .nav-item:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 /* Form Pemesanan*/
-.row
-{
-    margin-top: 20px;
+.row {
+  margin-top: 20px;
 }
 
-.col
-{
-    text-align: left;
+.col {
+  text-align: left;
 }
 
-#pemesanan
-{
-    margin-top: 80px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#pemesanan {
+  margin-top: 80px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.wrapper-judul-pesan
-{
-    padding: 10px;
-    text-align: center;
+.wrapper-judul-pesan {
+  padding: 10px;
+  text-align: center;
 }
 
-.wrapper-form-pesan
-{
-    padding: 10px;
-    text-align: left;
-    margin-top: 35px;
+.wrapper-form-pesan {
+  padding: 10px;
+  text-align: left;
+  margin-top: 35px;
 }
 
-.input-group
-{
-    margin-top: 5px;
+.input-group {
+  margin-top: 5px;
 }
 
-.form-select
-{
-    margin-top: 5px;
+.form-select {
+  margin-top: 5px;
 }
 
+.btn {
+  border-radius: 50px;
+  width: 200px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
+#kolom-button {
+  text-align: center;
+  margin-bottom: 25px;
+}
 
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  background-color: #004080;
+}
