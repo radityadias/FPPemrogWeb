@@ -5,7 +5,6 @@ body {
   box-sizing: border-box;
   text-decoration: none;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -27,14 +26,10 @@ html {
 .navbar-brand {
   padding: 0;
 }
-
 .navbar .logo {
-  width: 100px;
-  /* Atur lebar gambar */
-  height: auto;
-  /* Biarkan ketinggian mengikuti proporsi asli */
-  display: block;
-  /* Pastikan gambar muncul sebagai blok */
+  width: 100px; /* Atur lebar gambar */
+  height: auto; /* Biarkan ketinggian mengikuti proporsi asli */
+  display: block; /* Pastikan gambar muncul sebagai blok */
   margin-bottom: -20px;
   margin-top: -10px;
 }
@@ -42,23 +37,8 @@ html {
 .dropdown {
   margin-right: auto;
   text-align: right;
-<<<<<<< HEAD
 }
 
-.nav-item {
-  margin-left: 50px;
-}
-
-.nav-item:hover {
-  background-color: grey;
-=======
->>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
-}
-/* Footer */
-
-<<<<<<< HEAD
-#con-footer {
-=======
 .nav-item {
   margin-left: 50px;
 }
@@ -72,16 +52,10 @@ html {
   width: 80%; /* Maksimum lebar carousel */
   height: auto;
   margin: auto;
->>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
   position: relative;
-  margin-top: 20px;
-  background-color: rgb(33 37 41);
+  overflow: hidden;
 }
 
-<<<<<<< HEAD
-.wrapper-footer {
-  padding: 15px;
-=======
 .carousel-inner {
   border-radius: 15px;
   overflow: hidden;
@@ -160,27 +134,14 @@ html {
   padding: 15px;
   margin: 10px;
   margin-top: 15px;
->>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
 }
 
-.wrapper-footer .col {
-  text-align: center;
-  /* border: 1px solid black; */
-  padding: 5px;
-}
-
-#footer-judul {
+#formControl select.form-select {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 10px;
-  margin-bottom: 5px;
-  color: yellow;
 }
 
-<<<<<<< HEAD
-#isi-footer,
-hr {
-  color: white;
-}
-=======
 #formControl .row > .col#last-col {
   border: none;
   box-shadow: none;
@@ -329,4 +290,32 @@ hr {
   border: none;
   overflow: hidden;
 }
->>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
+
+/* Footer */
+
+#con-footer {
+  position: relative;
+  margin-top: 20px;
+  background-color: rgb(33 37 41);
+}
+
+.wrapper-footer {
+  padding: 15px;
+}
+
+.wrapper-footer .col {
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 5px;
+}
+
+#footer-judul {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+#isi-footer,
+hr {
+  color: white;
+}

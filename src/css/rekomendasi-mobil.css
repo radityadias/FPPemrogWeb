@@ -30,11 +30,11 @@ html {
 
 .navbar .logo {
   width: 100px;
-  /* Atur lebar gambar */
+
   height: auto;
-  /* Biarkan ketinggian mengikuti proporsi asli */
+
   display: block;
-  /* Pastikan gambar muncul sebagai blok */
+
   margin-bottom: -20px;
   margin-top: -10px;
 }
@@ -52,33 +52,82 @@ html {
   background-color: grey;
 }
 
+/* konten */
+
+#judul-konten {
+  margin-top: 90px;
+  margin-bottom: -30px;
+}
+
+.wrapper-judul-konten .container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#konten {
+  padding: 20px;
+  margin-bottom: 90px;
+}
+
+#konten .card-body {
+  text-align: left;
+  margin-top: 5px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.link-konten {
+  text-decoration: none;
+}
+
+#konten .card-img-active {
+  margin-left: 15px;
+}
+
+#konten img {
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
+}
+
+#konten .card {
+  border: none;
+  overflow: hidden;
+}
+
+#col-logo {
+  margin-right: -20px;
+}
+
+#konten .card .col p {
+  font-size: small;
+}
 
 /* Footer */
 
 #con-footer {
-    position: relative;
-    margin-top: 20px;
-    background-color: rgb(33 37 41);
-  }
-  
-  .wrapper-footer {
-    padding: 15px;
-  }
-  
-  .wrapper-footer .col {
-    text-align: center;
-    /* border: 1px solid black; */
-    padding: 5px;
-  }
-  
-  #footer-judul {
-    padding: 10px;
-    margin-bottom: 5px;
-    color: yellow;
-  }
-  
-  #isi-footer,
-  hr {
-    color: white;
-  }
+  position: relative;
+  margin-top: 20px;
+  background-color: rgb(33 37 41);
+}
 
+.wrapper-footer {
+  padding: 15px;
+}
+
+.wrapper-footer .col {
+  text-align: center;
+
+  padding: 5px;
+}
+
+#footer-judul {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+#isi-footer,
+hr {
+  color: white;
+}
