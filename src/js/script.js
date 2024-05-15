@@ -6,3 +6,12 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("sticky");
   }
 });
+
+$('#timepicker2').timepicker({
+    minuteStep: 1,
+    template: 'modal',
+    appendWidgetTo: 'body',
+    showSeconds: true,
+    showMeridian: false,
+    defaultTime: false
+});

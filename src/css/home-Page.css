@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   text-decoration: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -26,178 +27,55 @@ html {
 .navbar-brand {
   padding: 0;
 }
+
 .navbar .logo {
-  width: 100px; /* Atur lebar gambar */
-  height: auto; /* Biarkan ketinggian mengikuti proporsi asli */
-  display: block; /* Pastikan gambar muncul sebagai blok */
+  width: 100px;
+  /* Atur lebar gambar */
+  height: auto;
+  /* Biarkan ketinggian mengikuti proporsi asli */
+  display: block;
+  /* Pastikan gambar muncul sebagai blok */
   margin-bottom: -20px;
   margin-top: -10px;
+}
+
+.dropdown {
+  margin-right: auto;
+  text-align: right;
+}
+
+.nav-item {
+  margin-left: 50px;
 }
 
 .nav-item:hover {
   background-color: grey;
 }
+/* Footer */
 
-.d-flex {
-  margin-left: 450px;
-}
-
-/* SLIDER */
-
-.carousel {
-  max-width: 80%; /* Maksimum lebar carousel */
-  margin: auto;
+#con-footer {
   position: relative;
-  overflow: hidden;
+  margin-top: 20px;
+  background-color: rgb(33 37 41);
 }
 
-.carousel-inner {
-  border-radius: 15px;
-  overflow: hidden;
-  margin-top: 100px;
-  position: relative;
-}
-
-.carousel-item {
-  text-align: center;
-  position: relative;
-}
-
-.carousel-item img {
-  width: 100%;
-  border-radius: 15px;
-  max-height: 600px;
-  transition: transform 0.8s ease;
-}
-
-.carousel-caption {
-  opacity: 0;
-  transition: 0.8s;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0 0 15px 15px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  color: #fff;
-}
-
-.carousel-item:hover img {
-  transform: scale(1.1); /* Perbesar gambar saat cursor di atasnya */
-}
-
-.carousel-item:hover .carousel-caption {
-  opacity: 1;
-}
-
-/* Tambahkan animasi untuk menampilkan caption */
-.carousel-caption {
-  transform: translateY(100%); /* Sembunyikan caption di bawah */
-}
-
-.carousel-item:hover .carousel-caption {
-  transform: translateY(0); /* Tampilkan caption saat hover */
-}
-
-/* ISI HP */
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.judul {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.content .judul {
-  text-align: center;
-}
-
-#searchForm {
-  display: none;
-}
-
-.card {
-  height: 100%; /* Buat tinggi card menjadi 100% */
-}
-
-.card-img-top {
-  height: 300px; /* Atur tinggi gambar sesuai kebutuhan */
-  object-fit: cover; /* Hindari gambar menjadi terlalu besar atau terlalu kecil */
-}
-
-.card-body {
-  text-align: center; /* Pusatkan teks di dalam card */
-}
-
-.content {
-  padding-bottom: 50px; /* Tambahkan padding-bottom untuk menciptakan jarak antara konten dan footer */
-}
-
-/* Form Control*/
-
-#con-form {
-  border: 1px solid black;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 10px;
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.col {
-  padding: 5px;
-  margin-top: 10px;
-  height: auto;
-}
-
-#formControl .col {
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+.wrapper-footer {
   padding: 15px;
-  margin: 10px;
 }
 
-#formControl select.form-select {
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+.wrapper-footer .col {
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 5px;
+}
+
+#footer-judul {
   padding: 10px;
+  margin-bottom: 5px;
+  color: yellow;
 }
 
-#formControl .row>.col#last-col {
-  border: none;
-  box-shadow: none;
-}
-
-#formControl input.form-control {
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-}
-
-#submit-btn {
-  width: 185px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-#submit-btn:hover {
-  background-color: #0056b3;
-}
-
-#submit-btn:active {
-  background-color: #004080;
+#isi-footer,
+hr {
+  color: white;
 }

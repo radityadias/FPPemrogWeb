@@ -1,0 +1,198 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.navbar.sticky {
+  top: -60px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar .logo {
+  width: 100px;
+  /* Atur lebar gambar */
+  height: auto;
+  /* Biarkan ketinggian mengikuti proporsi asli */
+  display: block;
+  /* Pastikan gambar muncul sebagai blok */
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+.dropdown {
+  margin-right: auto;
+  text-align: right;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+.nav-item:hover {
+  background-color: grey;
+}
+
+/* Form Pemesanan*/
+.wrapper-form-pesan .row {
+  margin-top: 20px;
+}
+
+.wrapper-form-pesan .col {
+  text-align: left;
+}
+
+#pemesanan {
+  margin-top: 80px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-judul-pesan {
+  padding: 10px;
+  text-align: center;
+}
+
+.wrapper-form-pesan {
+  padding: 10px;
+  text-align: left;
+  margin-top: 35px;
+}
+
+.input-group {
+  margin-top: 5px;
+}
+
+.form-select {
+  margin-top: 5px;
+}
+
+.btn {
+  border-radius: 50px;
+  width: 200px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#kolom-button {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  background-color: #004080;
+}
+
+/* Berita */
+#judul-berita {
+  margin-top: 90px;
+  margin-bottom: -30px;
+}
+
+.wrapper-judul-berita .container {
+  text-align: left;
+  margin-top: 25px;
+}
+
+#berita {
+  margin-top: 80px;
+  /* padding: 20px; */
+  margin-bottom: 90px;
+}
+
+#berita .card-body {
+  text-align: left;
+  margin-top: 5px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.link-berita {
+  text-decoration: none;
+}
+
+#berita .col:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#berita h5:hover {
+  color: rgb(0, 191, 255);
+}
+
+#berita .card-img-active {
+  margin-left: 15px;
+}
+
+#berita img {
+  width: 90%;
+  max-height: 1000px;
+  border-radius: 10px;
+}
+
+#berita .card {
+  border: none;
+  overflow: hidden;
+}
+
+.wrapper-judul-berita {
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+
+#con-footer {
+  position: relative;
+  margin-top: 20px;
+  background-color: rgb(33 37 41);
+}
+
+.wrapper-footer {
+  padding: 15px;
+}
+
+.wrapper-footer .col {
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 5px;
+}
+
+#footer-judul {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+#isi-footer,
+hr {
+  color: white;
+}
