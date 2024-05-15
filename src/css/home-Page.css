@@ -42,6 +42,7 @@ html {
 .dropdown {
   margin-right: auto;
   text-align: right;
+<<<<<<< HEAD
 }
 
 .nav-item {
@@ -50,17 +51,116 @@ html {
 
 .nav-item:hover {
   background-color: grey;
+=======
+>>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
 }
 /* Footer */
 
+<<<<<<< HEAD
 #con-footer {
+=======
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item:hover {
+  background-color: grey;
+}
+
+/* SLIDER */
+
+.carousel {
+  width: 80%; /* Maksimum lebar carousel */
+  height: auto;
+  margin: auto;
+>>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
   position: relative;
   margin-top: 20px;
   background-color: rgb(33 37 41);
 }
 
+<<<<<<< HEAD
 .wrapper-footer {
   padding: 15px;
+=======
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 80px;
+  position: relative;
+}
+
+.carousel-item {
+  text-align: center;
+  position: relative;
+}
+
+.carousel-item img {
+  width: auto;
+  border-radius: 15px;
+  max-height: 500px;
+  transition: transform 0.8s ease;
+}
+
+/* .carousel-caption {
+  opacity: 0;
+  transition: 0.8s;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: #fff;
+} */
+
+/* .carousel-item:hover img {
+  transform: scale(1.1); /* Perbesar gambar saat cursor di atasnya 
+} */
+
+.carousel-item:hover .carousel-caption {
+  opacity: 1;
+}
+
+/* Tambahkan animasi untuk menampilkan caption */
+.carousel-caption {
+  transform: translateY(100%); /* Sembunyikan caption di bawah */
+}
+
+.carousel-item:hover .carousel-caption {
+  transform: translateY(0); /* Tampilkan caption saat hover */
+}
+
+#searchForm {
+  display: none;
+}
+
+/* Form Control*/
+
+#con-form {
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid black;
+  max-width: 1300px;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col {
+  padding: 5px;
+  margin-top: 10px;
+  height: auto;
+}
+
+#formControl .col {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 15px;
+  margin: 10px;
+  margin-top: 15px;
+>>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
 }
 
 .wrapper-footer .col {
@@ -75,7 +175,158 @@ html {
   color: yellow;
 }
 
+<<<<<<< HEAD
 #isi-footer,
 hr {
   color: white;
 }
+=======
+#formControl .row > .col#last-col {
+  border: none;
+  box-shadow: none;
+}
+
+#formControl input.form-control {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+#submit-btn {
+  width: 185px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #0056b3;
+}
+
+#submit-btn:active {
+  background-color: #004080;
+}
+
+/* Konten */
+#rekomendasi {
+  margin-bottom: -20px;
+}
+
+#judul {
+  margin-top: 90px;
+  margin-bottom: 110px;
+}
+
+.wrapper-judul .container {
+  text-align: center;
+  width: 1100px;
+  margin-top: 25px;
+}
+
+.wrapper-card .row {
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#card {
+  padding: 25px;
+  margin-bottom: 90px;
+}
+
+/* Tentang Kami*/
+#about-us {
+  margin-bottom: 30px;
+}
+
+#tentang-kami {
+  display: flex;
+  padding: 10px;
+  align-items: stretch;
+  margin-bottom: 90px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.197);
+}
+
+.wrapper-us-flex,
+.wrapper-about-flex {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.wrapper-us-flex img {
+  width: 75%;
+  border-radius: 40px;
+}
+
+#card-about {
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: rgba(128, 128, 128, 0);
+}
+
+#card-about img {
+  width: 40%;
+}
+
+/* Berita */
+#judul-berita {
+  margin-top: 90px;
+  margin-bottom: -30px;
+}
+
+.wrapper-judul-berita .container {
+  text-align: left;
+  margin-top: 25px;
+}
+
+#berita {
+  padding: 20px;
+  margin-bottom: 90px;
+}
+
+#berita .card-body {
+  text-align: left;
+  margin-top: 5px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.link-berita {
+  text-decoration: none;
+}
+
+#berita .col:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#berita h5:hover {
+  color: rgb(0, 191, 255);
+}
+
+#berita .card-img-active {
+  margin-left: 15px;
+}
+
+#berita img {
+  width: 90%;
+  max-height: 1000px;
+  border-radius: 10px;
+}
+
+#berita .card {
+  border: none;
+  overflow: hidden;
+}
+>>>>>>> ab8fb3531628b5067718a9e3ed2c1b6ab77b37e4
