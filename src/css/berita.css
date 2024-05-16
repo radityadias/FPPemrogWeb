@@ -1,0 +1,117 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.navbar.sticky {
+    top: -60px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar .logo {
+    width: 100px;
+    /* Atur lebar gambar */
+    height: auto;
+    /* Biarkan ketinggian mengikuti proporsi asli */
+    display: block;
+    /* Pastikan gambar muncul sebagai blok */
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+.dropdown {
+    margin-right: auto;
+    text-align: right;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.nav-item:hover {
+    background-color: grey;
+}
+
+/* Berita */
+
+#con-berita
+{
+    margin-top: 80px;
+}
+
+.wrapper-judul
+{
+    text-align: center;
+}
+
+.col
+{
+    display: flex;
+    justify-content: center;    
+}
+
+#baris-berita
+{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.card
+{
+    border: none;
+}
+
+.card img
+{
+    border-radius: 15px;
+    
+}
+
+/* Footer */
+
+#con-footer {
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(33 37 41);
+}
+
+.wrapper-footer {
+    padding: 15px;
+}
+
+.wrapper-footer .col {
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+#footer-judul {
+    padding: 10px;
+    margin-bottom: 5px;
+    color: yellow;
+}
+
+#isi-footer,
+hr {
+    color: white;
+}
