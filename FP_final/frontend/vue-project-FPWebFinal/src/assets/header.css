@@ -5,6 +5,9 @@
     z-index: 1000;
     transition: top 0.3s;
 }
+.container {
+    height: 60px;
+}
 
 .navbar.sticky {
     top: -60px;
