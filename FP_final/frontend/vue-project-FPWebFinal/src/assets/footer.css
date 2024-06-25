@@ -1,0 +1,26 @@
+#con-footer {
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(33 37 41);
+}
+
+.wrapper-footer {
+    padding: 15px;
+}
+
+.wrapper-footer .col {
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+#footer-judul {
+    padding: 10px;
+    margin-bottom: 5px;
+    color: yellow;
+}
+
+#isi-footer,
+hr {
+    color: white;
+}
