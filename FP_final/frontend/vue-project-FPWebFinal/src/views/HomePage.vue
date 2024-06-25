@@ -33,6 +33,11 @@
   <!-- Image Slider END-->
 
   <!-- Form Controls -->
+  <div class="container" id="judul-form">
+    <div class="wrapper-judul-form">
+      <h2>Tentukan Perjanan Anda</h2>
+    </div>
+  </div>
   <div class="container text-center" id="con-form">
     <div class="row" id="formControl">
       <!-- First column -->
@@ -164,7 +169,7 @@
   </div>
   <div class="container" id="tentang-kami">
     <div class="wrapper-us-flex">
-      <img src="../../img/About.png" alt="" />
+      <img src="../../public/img/About.png" alt="" />
     </div>
     <div class="wrapper-about-flex">
       <div class="row">
@@ -340,6 +345,13 @@
 
 /* Form Control*/
 
+#judul-form
+{
+  padding: 10px;
+  margin-top: 35px;
+  margin-bottom: -30px
+}
+
 #con-form {
   padding: 10px;
   padding-left: 20px;
@@ -442,6 +454,15 @@
   margin-bottom: 90px;
   border-radius: 20px;
   background-color: rgba(128, 128, 128, 0.197);
+}
+
+#tentang-kami img{
+  width: 100%;
+}
+
+#tentang-kami .row{
+  padding: 15px ;
+  margin-bottom: 20px;
 }
 
 .wrapper-us-flex,
