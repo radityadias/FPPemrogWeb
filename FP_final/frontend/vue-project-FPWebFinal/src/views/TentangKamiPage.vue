@@ -5,24 +5,22 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8">
-                    <h2>About Company Page</h2><br>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat.</h4><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia
-                        deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi
-                        ut aliquip ex ea commodo consequat.</p>
-                    <br><button class="btn btn-default btn-lg">TEST BUTTON</button>
+                    <h2>Tentang Kami</h2><br>
+                    <h4>Selamat datang di rental mobil kami. Kami menyediakan berbagai jenis mobil yang dapat
+                        Anda
+                        sewa untuk tujuan penting Anda. Kami memberikan pelayanan yang memuaskan, mobil yang
+                        terawat,
+                        dan harga yang kompetitif. Kami mengutamakan kepuasan pelanggan dan berkomitmen untuk
+                        memberikan
+                        pengalaman yang tidak dapat diragukan lagi.</h4><br>
+                    <p>Kami menyediakan berbagai jenis mobil yang dapat Anda sewa. Mobil kami dilengkapi dengan
+                        fitur
+                        yang canggih, seperti air conditioner, remote lock, dan sistem navigasi. Kami juga menawarkan
+                        pengembalian mobil gratis jika Anda melewati batas kedalaman air maksimal. Setiap mobil
+                        kami
+                        dilengkapi dengan dokumen yang lengkap dan dikemas dengan hati-hati. Kami juga menawarkan
+                        layanan
+                        asuransi untuk membantu Anda melindungi aset Anda.</p>
                 </div>
                 <div class="wrapper-us-flex">
                     <img src="../../img/Vehicle.png" alt="" />
@@ -37,21 +35,18 @@
                 </div>
                 <div class="col-sm-8">
                     <h2>VISI dan MISI</h2><br>
-                    <p><strong>VISI:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
-                    <p><strong>MISI:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                        amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
+                    <p><strong>VISI:</strong> Menjadi perusahaan rental mobil yang terpercaya, terkemuka, dan maju
+                        di
+                        industri rental mobil di Jawa Barat. Kami berkomitmen untuk memberikan pelayanan yang
+                        memuaskan
+                        kepada pelanggan dengan mobil yang berkualitas dan harga yang kompetitif.</p><br>
+                    <p><strong>MISI:</strong> Untuk mengembangkan dan memperluas jangkauan layanan rental mobil,
+                        melalui
+                        strategi yang inovatif, berorientasi pada kepuasan pelanggan, dan memberikan layanan yang
+                        terjangkau
+                        dan berkualitas. Kami juga berkomitmen untuk menjaga dan meningkatkan kualitas dan kelengkapan
+                        dokumen
+                        mobil yang kami sediakan bagi pelanggan.</p>
                 </div>
             </div>
         </div>
@@ -67,48 +62,42 @@
             <div class="row slideanim">
                 <div class="col-sm-4">
                     <div id="profile" class="wrapper-us-flex">
-                        <img src="../../img/Vehicle.png" alt="" />
                     </div>
                     <h4>Muhammad Raditya Nur Aziz</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <p>22.11.4733</p>
                 </div>
                 <div class="col-sm-4">
                     <div id="profile" class="wrapper-us-flex">
-                        <img src="../../img/Vehicle.png" alt="" />
                     </div>
                     <h4>Tigor Neilson Sinaga</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <p>22.11.4725</p>
                 </div>
                 <div class="col-sm-4">
                     <div id="profile" class="wrapper-us-flex">
-                        <img src="../../img/Vehicle.png" alt="" />
                     </div>
                     <h4>Taufiq Kurniawan Akbar</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <p>22.11.4719</p>
                 </div>
             </div>
             <br><br>
             <div class="row slideanim">
                 <div class="col-sm-4">
                     <div id="profile" class="wrapper-us-flex">
-                        <img src="../../img/Vehicle.png" alt="" />
                     </div>
                     <h4>Muhammad Azhar Firdaus</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <p>22.11.4695</p>
                 </div>
                 <div class="col-sm-4">
                     <div id="profile" class="wrapper-us-flex">
-                        <img src="../../img/Vehicle.png" alt="" />
                     </div>
                     <h4>Alvin Haris Suherdi</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <p>22.11.4711</p>
                 </div>
                 <div class="col-sm-4">
                     <div id="profile" class="wrapper-us-flex">
-                        <img src="../../img/Vehicle.png" alt="" />
                     </div>
                     <h4>Moh.Figriaone.T.Hi Noor</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <p>22.11.4694</p>
                 </div>
             </div>
         </div>
