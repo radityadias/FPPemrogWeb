@@ -124,7 +124,12 @@
         </div>
       </div>
     </div>
-  </div>
+    </div>
+  <footer class="mt-5">
+    <div class="container">
+      <!-- ... -->
+    </div>
+  </footer>
 </template>
 
 <style scoped>
@@ -155,4 +160,9 @@
 .card img {
   border-radius: 15px;
 }
+
+footer {
+  margin-top: 30px;
+}
 </style>
+
