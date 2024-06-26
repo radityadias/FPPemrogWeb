@@ -5,8 +5,24 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MobilController; 
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('layouts.beranda');
+})->name('beranda');
+
+Route::get('/pemesanan', function () {
+    return view('layouts.pemesanan');
+})->name('pemesanan');
+
+Route::get('/mobil', function () {
+    return view('layouts.mobil');
+})->name('mobil');
+
+Route::get('/berita', function () {
+    return view('layouts.berita');
+})->name('berita');
+
+Route::get('/tentang-kami', function () {
+    return view('layouts.tentangkami');
+})->name('tentangKami');
 
  Route::controller(AuthController::class)->group(function () {
      Route::get('register', 'register')->name('register');
@@ -35,3 +51,5 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/profile', [App\Http\Controllers\AuthController::class, 'profile'])->name('profile');
 });
+
+
