@@ -113,44 +113,42 @@
     </div>
   </div>
 
-  <div class="container" id="card">
+   <div class="container" id="card">
     <div class="wrapper-card">
-      <div class="container text-center">
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="card">
-              <img src="../../img/mobil3.jpg" class="card-img-active" alt="..." />
-              <div class="card-body">
-                <h6>Avanza 2015</h6>
-                <button type="button" class="btn btn-primary">Cek Mobil</button>
-              </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="../../img/mobil3.jpg" class="card-img-top" alt="Avanza 2015" />
+            <div class="card-body">
+              <h6>Avanza 2015</h6>
+              <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="../../img/mobil3.jpg" class="card-img-active" alt="..." />
-              <div class="card-body">
-                <h6>Toyota 2025</h6>
-                <button type="button" class="btn btn-primary">Cek Mobil</button>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="../../img/mobil3.jpg" class="card-img-top" alt="Toyota 2025" />
+            <div class="card-body">
+              <h6>Toyota 2025</h6>
+              <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="../../img/mobil3.jpg" class="card-img-active" alt="..." />
-              <div class="card-body">
-                <h6>Mitsubishi 2021</h6>
-                <button type="button" class="btn btn-primary">Cek Mobil</button>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="../../img/mobil3.jpg" class="card-img-top" alt="Mitsubishi 2021" />
+            <div class="card-body">
+              <h6>Mitsubishi 2021</h6>
+              <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="../../img/mobil4.jpg" class="card-img-active" alt="..." />
-              <div class="card-body">
-                <h6>AGIA 2020</h6>
-                <button type="button" class="btn btn-primary">Cek Mobil</button>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="../../img/mobil4.jpg" class="card-img-top" alt="AGIA 2020" />
+            <div class="card-body">
+              <h6>AGIA 2020</h6>
+              <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
             </div>
           </div>
         </div>
@@ -396,50 +394,42 @@
 }
 
 #submit-btn {
-  width: 185px;
-  padding: 10px 20px;
   background-color: #007bff;
-  color: #fff;
+  color: white;
+  padding: 10px 20px;
   border: none;
-  border-radius: 50px;
   cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 #submit-btn:hover {
   background-color: #0056b3;
 }
 
-#submit-btn:active {
-  background-color: #004080;
+#judul h2 {
+  margin-bottom: 30px;
 }
 
-/* Konten */
-#rekomendasi {
-  margin-bottom: -20px;
+/* Card styles */
+#card .card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
 }
 
-#judul {
-  margin-top: 90px;
-  margin-bottom: 110px;
+#card .card:hover {
+  transform: translateY(-10px);
 }
 
-.wrapper-judul .container {
-  text-align: center;
-  width: 1100px;
-  margin-top: 25px;
+#card .card-body h6 {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
-.wrapper-card .row {
-  padding: 10px;
-  padding-left: 20px;
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#card {
-  padding: 25px;
-  margin-bottom: 90px;
+#card .btn-outline-primary {
+  border-radius: 20px;
+  padding: 5px 15px;
 }
 
 /* Tentang Kami*/

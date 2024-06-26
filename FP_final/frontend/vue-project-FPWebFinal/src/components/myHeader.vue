@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark text-white pt-1 pb-1">
+    <nav class="navbar navbar-expand-lg bg-dark pt-1 pb-1">
       <div class="container">
         <RouterLink class="navbar-brand" to="/">
           <img class="logo" src="../../public/img/logo 2.png" alt="cobuddy" />
@@ -14,21 +14,21 @@ import { RouterLink, RouterView } from 'vue-router'
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
+          <ul id="font" class="navbar-nav ms-auto">
             <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="/">Beranda</RouterLink>
+              <RouterLink class="nav-link" to="/">Beranda</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="/pemesanan">Pemesanan</RouterLink>
+              <RouterLink class="nav-link" to="/pemesanan">Pemesanan</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="/mobil">Mobil</RouterLink>
+              <RouterLink class="nav-link" to="/mobil">Mobil</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="/berita">Berita</RouterLink>
+              <RouterLink class="nav-link" to="/berita">Berita</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="/tentang-kami">Tentang Kami</RouterLink>
+              <RouterLink class="nav-link" to="/tentang-kami">Tentang Kami</RouterLink>
             </li>
           </ul>
         </div>

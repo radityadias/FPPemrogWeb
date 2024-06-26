@@ -481,13 +481,20 @@
   padding: 20px;
   margin-bottom: 90px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
 }
+
+#konten .card{
+        border: 2px  solid black;
+} 
 
 #konten .card-body {
   text-align: left;
   margin-top: 5px;
   height: 250px;
   overflow: hidden;
+            /* border: 2px  solid black; */
 }
 
 .link-konten {
@@ -500,7 +507,7 @@
 
 #konten img {
   width: 100%;
-  max-height: 1000px;
+  max-height: 250px;
   object-fit: cover;
 }
 

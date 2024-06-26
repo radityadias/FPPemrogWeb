@@ -4,7 +4,7 @@
   <div class="container">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-8" style="max-width: 500px">
+        <div class="col-sm-8" style="max-width: 500px; background-color: #f6f6f6; border-radius: 10px;">
           <h2>Tentang Kami</h2>
           <br />
           <div>
@@ -115,7 +115,8 @@
 <style scoped>
 /* TEST (DELETE this optional) */
 .container-fluid {
-  padding: 100px 50px;
+  padding: 50px 50px;
+  margin-top: 80px;
 }
 
 .bg-values {
@@ -139,7 +140,8 @@
 
 #profile img {
   width: 150px; /* Lebar gambar */
-  height: 150px; /* Tinggi gambar */
+  height: 100px; /* Tinggi gambar */
+  display: flex;
   object-fit: cover; /* Untuk menjaga aspek gambar */
 }
 
