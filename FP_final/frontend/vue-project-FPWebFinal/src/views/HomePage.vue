@@ -4,16 +4,26 @@
 </script> -->
 
 <template>
-    <!-- <myHeader/> -->
+  <!-- <myHeader/> -->
 
-    <!-- Image Slider -->
+  <!-- Image Slider -->
   <div class="carousel slide" id="carouselDemo" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselDemo"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon"></span>
       </button>
 
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselDemo"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon"></span>
       </button>
 
@@ -43,7 +53,12 @@
       <!-- First column -->
       <div class="col">
         <label for="pilihKota" class="form-label">Kota Sewa : </label>
-        <select class="form-select" aria-label="Default select example" id="pilih-kota" placeholder="name@example.com">
+        <select
+          class="form-select"
+          aria-label="Default select example"
+          id="pilih-kota"
+          placeholder="name@example.com"
+        >
           <option selected>Pilih Kota</option>
           <option value="1">Yogyakarta</option>
           <option value="2">Solo</option>
@@ -96,11 +111,14 @@
 
   <!-- Konten -->
   <div class="container" id="judul">
-    <div class="wrapper-judul">
+    <div style="margin-top: 60px" class="wrapper-judul">
       <div class="container">
         <h1><b>SOLUSI TERBAIK MENEMANI PERJALANAN ANDA</b></h1>
-        <p>Kami mengerti bahwa setiap orang memiliki kebutuhan transportasi yang beragam. Karena itu kami menawarkan
-          layanan sewa berbahai kendaraan sebagai solusi untuk memenuhi kebutuhan transportasi kalian</p>
+        <p>
+          Kami mengerti bahwa setiap orang memiliki kebutuhan transportasi yang beragam. Karena itu
+          kami menawarkan layanan sewa berbahai kendaraan sebagai solusi untuk memenuhi kebutuhan
+          transportasi kalian
+        </p>
       </div>
     </div>
   </div>
@@ -108,12 +126,12 @@
   <div class="container" id="rekomendasi">
     <div class="wrapper-daftar">
       <div class="container">
-        <h2>Daftar Mobil</h2>
+        <h2 style="margin-top: 80px">Daftar Mobil</h2>
       </div>
     </div>
   </div>
 
-   <div class="container" id="card">
+  <div class="container" id="card">
     <div class="wrapper-card">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col">
@@ -203,7 +221,10 @@
             <img src="../../img/kualitas.png" class="card-img-active" alt="..." />
             <div class="card-body">
               <h3>Kualitas Terjamin</h3>
-              <h6>aSetiap mobil yang kami sediakan sudah di periksa dan di jamin aman dan layak untuk berkendara.</h6>
+              <h6>
+                aSetiap mobil yang kami sediakan sudah di periksa dan di jamin aman dan layak untuk
+                berkendara.
+              </h6>
             </div>
           </div>
         </div>
@@ -217,7 +238,10 @@
     <div class="wrapper-judul-berita">
       <div class="container">
         <h1>Berita & Informasi</h1>
-        <p>Ketahui informasi tempat yang kece abis dan berita yang bermanfaat melalui artikel-artikel kami</p>
+        <p>
+          Ketahui informasi tempat yang kece abis dan berita yang bermanfaat melalui artikel-artikel
+          kami
+        </p>
       </div>
     </div>
   </div>
@@ -276,12 +300,12 @@
   </div>
   <!-- Berita END-->
 
-    <!-- <myFooter/> -->
+  <!-- <myFooter/> -->
 </template>
 
 <style scoped>
 .carousel {
-  width: 80%; /* Maksimum lebar carousel */
+  width: clamp(200px, 50%, 1500px);
   height: auto;
   margin: auto;
   position: relative;
@@ -293,18 +317,34 @@
   overflow: hidden;
   margin-top: 80px;
   position: relative;
+  display: flex; /* Added to enable flexbox */
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
 }
 
 .carousel-item {
+  min-width: 100%; /* Ensures each item takes full width */
   text-align: center;
   position: relative;
+  flex: 0 0 auto; /* Prevent flex shrinking */
 }
 
 .carousel-item img {
-  width: auto;
   border-radius: 15px;
+  width: 100%; /* Ensures image takes full width of its container */
   max-height: 500px;
+  object-fit: cover; /* Ensures proper scaling */
   transition: transform 0.8s ease;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .carousel-inner {
+    margin-top: 50px;
+  }
+
+  .carousel-item img {
+    max-height: 300px;
+  }
 }
 
 /* .carousel-caption {
@@ -343,11 +383,10 @@
 
 /* Form Control*/
 
-#judul-form
-{
+#judul-form {
   padding: 10px;
   margin-top: 35px;
-  margin-bottom: -30px
+  margin-bottom: -30px;
 }
 
 #con-form {
@@ -412,7 +451,9 @@
 }
 
 /* Card styles */
+
 #card .card {
+  margin-top: 20px;
   border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s;
@@ -434,7 +475,8 @@
 
 /* Tentang Kami*/
 #about-us {
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 #tentang-kami {
@@ -446,12 +488,12 @@
   background-color: rgba(128, 128, 128, 0.197);
 }
 
-#tentang-kami img{
-  width: 100%;
+#tentang-kami img {
+  width: calmax(600px, 100%, 100%);
 }
 
-#tentang-kami .row{
-  padding: 15px ;
+#tentang-kami .row {
+  padding: 15px;
   margin-bottom: 20px;
 }
 
@@ -506,10 +548,11 @@
 }
 
 #berita .col:hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 #berita h5:hover {
@@ -530,4 +573,5 @@
   border: none;
   overflow: hidden;
 }
+
 </style>
