@@ -8,15 +8,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::controller(AuthController::class)->group(function () {
-//     Route::get('register', 'register')->name('register');
-//     Route::post('register', 'registerSave')->name('register.save');
+ Route::controller(AuthController::class)->group(function () {
+     Route::get('register', 'register')->name('register');
+     Route::post('register', 'registerSave')->name('register.save');
 
-//     Route::get('login', 'login')->name('login');
-//     Route::post('login', 'loginAction')->name('login.action');
+     Route::get('login', 'login')->name('login');
+     Route::post('login', 'loginAction')->name('login.action');
 
-//     Route::get('logout', 'logout')->middleware('auth')->name('logout');
-// });
+     Route::get('logout', 'logout')->middleware('auth')->name('logout');
+ });
 
 Route::middleware('auth')->group(function () {
     Route::get('dashboard', function () {
