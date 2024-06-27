@@ -5,8 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Mobil; // Menggunakan model Mobil
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Routing\Controller;
 
-class MobilController extends Model
+class MobilController extends Controller
 {
     /**
      * Menampilkan daftar mobil.
