@@ -1,27 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="/nav.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css"
-        rel="stylesheet" />
-</head>
-
-<body>
-
-    @include ('layouts.partial.nav')
-    <h1>footer</h1>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-</body>
-
-</html>
+<footer class="footer py-3 bg-dark text-white">
+        <div class="container" id="con-footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Cobuddy</h5>
+                    <p>Menyediakan berbagai jenis mobil untuk kebutuhan Anda dengan harga terbaik.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hubungi Kami</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: Cobuddy@gmail.com</li>
+                        <li>Telepon: +62 123 456 789</li>
+                        <li>Alamat: Amikom Yogyakarta</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Ikuti Kami</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center py-3">
+                <small>&copy; 2024 Cobuddy. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>

@@ -1,26 +1,39 @@
-#con-footer {
-    position: relative;
-    margin-top: 20px;
-    background-color: rgb(33 37 41);
-}
-
-.wrapper-footer {
-    padding: 15px;
-}
-
-.wrapper-footer .col {
-    text-align: center;
-    /* border: 1px solid black; */
-    padding: 5px;
-}
-
-#footer-judul {
-    padding: 10px;
-    margin-bottom: 5px;
-    color: yellow;
-}
-
-#isi-footer,
-hr {
+.footer {
+    background-color: #0080ff;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#con-footer{
+    height: 200px;
+    text-align: center;
+    
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer h5
+{
+    color: rgb(147, 238, 147);
 }
