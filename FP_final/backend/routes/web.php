@@ -24,7 +24,7 @@ Route::get('/berita', function () {
 })->name('berita');
 
 Route::get('/tentang-kami', function () {
-    return view('frontend.tentangkami');
+    return view('frontend.tentangKami');
 })->name('tentangKami');
 
 Route::get('/footer', function () {
