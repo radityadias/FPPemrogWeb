@@ -33,7 +33,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                @include('frontend.navbar')
+                @include('layouts.navbar')
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->

@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Cobuddy Admin <sup>New</sup></div>
     </a>
 
     <!-- Divider -->
@@ -13,7 +13,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="{{ route('dashboard') }}">
+        <a class="nav-link" href="{{ route('home.slide')}}">
             <i class="fas fa-fw fa-user"></i>
             <span>Beranda</span></a>
     </li>
@@ -25,7 +25,7 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="{{ route('admin-mobil') }}">
+        <a class="nav-link" href="">
             <i class="fas fa-fw fa-car"></i>
             <span>Daftar Mobil</span></a>
     </li>

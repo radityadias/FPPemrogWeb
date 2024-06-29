@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MobilController;
+use App\Http\Controllers\SliderController;
+use App\Models\Slider;
 
 // Public routes
 
@@ -33,9 +35,11 @@ Route::get('/footer', function () {
 
 // Backend
 
-Route::get('/dashboard/mobil', function () {
-    return view('MobilEdit.admin-mobil');
-})->name('admin-mobil');
+// Slider Controller
+Route::controller(SliderController::class)->group(function () {
+    Route::get('dashboard/beranda', [App\Http\Controllers\SliderController::class, 'HomeSlider'])->name('home.slide');
+});
+
 
 // Authentication routes
 Route::controller(AuthController::class)->group(function () {
@@ -55,15 +59,16 @@ Route::middleware('auth')->group(function () {
     })->name('dashboard');
 
     // Mobil routes
-    Route::prefix('mobils')->controller(MobilController::class)->group(function () {
-        Route::get('', 'index')->name('mobils.index');
-        Route::get('create', 'create')->name('mobils.create');
-        Route::post('store', 'store')->name('mobils.store');
-        Route::get('show/{id}', 'show')->name('mobils.show');
-        Route::get('edit/{id}', 'edit')->name('mobils.edit');
-        Route::put('edit/{id}', 'update')->name('mobils.update');
-        Route::delete('destroy/{id}', 'destroy')->name('mobils.destroy');
-    });
+    // Route::prefix('mobils')->controller(MobilController::class)->group(function () {
+    //     Route::get('', 'index')->name('mobils.index');
+    //     Route::get('create', 'create')->name('mobils.create');
+    //     Route::post('store', 'store')->name('mobils.store');
+    //     Route::get('show/{id}', 'show')->name('mobils.show');
+    //     Route::get('edit/{id}', 'edit')->name('mobils.edit');
+    //     Route::put('edit/{id}', 'update')->name('mobils.update');
+    //     Route::delete('destroy/{id}', 'destroy')->name('mobils.destroy');
+    // });
+
 
     // Profile route
     Route::get('/profile', [AuthController::class, 'profile'])->name('profile');

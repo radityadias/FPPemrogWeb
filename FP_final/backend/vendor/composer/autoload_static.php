@@ -511,6 +511,7 @@ class ComposerStaticInit460fb41bb7b60798fef5fc34ce2541f2
         'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
         'App\\Http\\Controllers\\MobilController' => __DIR__ . '/../..' . '/app/Http/Controllers/MobilController.php',
         'App\\Models\\Mobil' => __DIR__ . '/../..' . '/app/Models/Mobil.php',
+        'App\\Models\\Slider' => __DIR__ . '/../..' . '/app/Models/Slider.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
