@@ -1,0 +1,30 @@
+#con-berita {
+    margin-top: 80px;
+    height: 90rem;
+}
+
+.wrapper-judul {
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+#baris-berita {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 30px;
+}

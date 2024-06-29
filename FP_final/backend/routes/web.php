@@ -20,7 +20,7 @@ Route::get('/mobil', function () {
 })->name('mobil');
 
 Route::get('/berita', function () {
-    return view('frontend.berita');
+    return view('frontend.PageBerita');
 })->name('berita');
 
 Route::get('/tentang-kami', function () {
