@@ -28,12 +28,17 @@
 
     <div class="wrapper-form-pesan">
       <h5>Informasi Pemesanan</h5>
-      <div class="row row-cols-2">
+      <form action="{{ route('pesanForm.store') }}" method="POST">
+        @csrf
+        <div class="row row-cols-2">
         <div class="col">
           <label for="nama-lengkap">Nama Lengkap</label>
           <br />
           <div class="input-group mb-3">
-            <input id="nama-lengkap" type="text" class="form-control" placeholder="Masukkan Nama Anda" />
+            <input name="nama" id="nama-lengkap" type="text" class="form-control @error('nama')is-invalid @enderror" placeholder="Masukkan Nama Anda" />
+            @error('nama')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
           </div>
         </div>
 
@@ -41,7 +46,10 @@
           <label for="alamat-email">Alamat Email</label>
           <br />
           <div class="input-group mb-3">
-            <input id="alamat-email" type="text" class="form-control" placeholder="Masukkan Email Anda" />
+            <input name="email" id="alamat-email" type="text" class="form-control @error('email')is-invalid @enderror" placeholder="Masukkan Email Anda" />
+            @error('email')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
           </div>
         </div>
       </div>
@@ -50,14 +58,20 @@
           <label for="alamat-rumah">Alamat Rumah</label>
           <br />
           <div class="input-group mb-3">
-            <input id="alamat-rumah" type="text" class="form-control" placeholder="Masukkan Alamat Anda" />
+            <input name="alamat" id="alamat-rumah" type="text" class="form-control @error('alamat')is-invalid @enderror" placeholder="Masukkan Alamat Anda" />
+            @error('alamat')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
           </div>
         </div>
         <div class="col">
           <label for="nomor-telepon">Nomor Telepon Aktif</label>
           <br />
           <div class="input-group mb-3">
-            <input id="nomor-telepon" type="text" class="form-control" placeholder="Masukkan Nomor Anda" />
+            <input name="nomor_hp" id="nomor-telepon" type="text" class="form-control @error('nomor_hp')is-invalid @enderror" placeholder="Masukkan Nomor Anda" />
+            @error('nomor_hp')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
           </div>
         </div>
       </div>
@@ -69,39 +83,75 @@
         <div class="col">
           <label for="hari-pinjam">Hari Pinjam</label>
           <br />
-          <input id="hari-pinjam" type="date" class="form-control" />
+          <input name="tgl_pinjam" id="hari-pinjam" type="date" class="form-control @error('tgl_pinjam')is-invalid @enderror" />
+          @error('tgl_pinjam')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
         </div>
         <div class="col">
           <label for="hari-kembali">Hari Kembali</label>
           <br />
-          <input id="hari-kembali" type="date" class="form-control" />
+          <input name="tgl_kembali" id="hari-kembali" type="date" class="form-control @error('tgl_kembali')is-invalid @enderror" />
+          @error('tgl_kembali')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
         </div>
       </div>
       <div class="row row-cols-2">
         <div class="col">
           <label for="jenis-mobil">Jenis Mobil</label>
           <br />
-          <select id="jenis-mobil" class="form-select form-select-md mb-3">
-            <option selected>-</option>
+          <select name="mobil" id="jenis-mobil" class="form-select form-select-md mb-3 @error('mobil')is-invalid @enderror">
+            <option selected value="" disabled>Pilih Mobil</option>
             <option value="1">Avanza</option>
             <option value="2">Xenia</option>
             <option value="3">Brio</option>
           </select>
+          @error('mobil')
+              <span class="invalid-feedback">{{ $message }}</span>
+            @enderror
         </div>
       </div>
       <div class="row">
         <div class="col" id="kolom-button">
-          <button type="button" class="btn btn-secondary" id="submit-btn">Pesan</button>
+          <button type="submit  " class="btn btn-secondary" id="submit-btn">Pesan</button>
         </div>
       </div>
-    </div>
+      </form> 
+    </div>  
   </div>
   <!-- Pemesanan END -->
 
-    @include('frontend.berita')
-    @include ('frontend.footer')
+  {{-- <!-- Modal markup -->
+      <div class="modal" id="successModal" tabindex="-1">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title">Success!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <p>Pemesanan berhasil dibuat.</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div> --}} 
 
+  @include('frontend.berita')
+  @include ('frontend.footer')
 
+    {{-- <script>
+        @if(session('success'))
+            $(document).ready(function(){
+                $('#successModal').modal('show');
+            });
+        @endif
+    </script> --}}
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

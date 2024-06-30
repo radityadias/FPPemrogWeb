@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MobilController;
+use App\Http\Controllers\PemesananController;
 use App\Http\Controllers\SliderController;
 use App\Models\Slider;
 
@@ -73,3 +74,5 @@ Route::middleware('auth')->group(function () {
     // Profile route
     Route::get('/profile', [AuthController::class, 'profile'])->name('profile');
 });
+
+Route::resource('pesanForm', PemesananController::class);
