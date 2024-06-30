@@ -1,11 +1,9 @@
 /* TEST (DELETE this optional) */
-#con-tentangKami
-{
+#con-tentangKami {
     height: 75rem;
 }
 
-#con-anggota
-{
+#con-anggota {
     height: 35rem;
 }
 
@@ -15,7 +13,7 @@
 }
 
 .bg-values {
-    background-color: #f6f6f6;
+    background-color: var(--bs-dark-rgb);
     border-radius: 15px;
 }
 
@@ -35,14 +33,15 @@
     }
 }
 
-#profile img {
-    width: 150px;
-    /* Lebar gambar */
+.profile {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.profile-icon {
+    width: 100px;
     height: 100px;
-    /* Tinggi gambar */
-    display: flex;
-    object-fit: cover;
-    /* Untuk menjaga aspek gambar */
+    margin-bottom: 10px;
 }
 
 /* TEST END */
@@ -84,67 +83,12 @@
     width: 40%;
 }
 
-/* Berita */
-#judul-berita {
-    margin-top: 90px;
-    margin-bottom: -30px;
-}
-
-.wrapper-judul-berita .container {
-    text-align: left;
-    margin-top: 25px;
-}
-
-#berita {
-    padding: 20px;
-    margin-bottom: 90px;
-}
-
-#berita .card-body {
-    text-align: left;
-    margin-top: 5px;
-    height: 100px;
-    overflow: hidden;
-}
-
-.link-berita {
-    text-decoration: none;
-}
-
-#berita .col:hover {
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
-    cursor: pointer;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#berita h5:hover {
-    color: rgb(0, 191, 255);
-}
-
-#berita .card-img-active {
-    margin-left: 15px;
-}
-
-#berita img {
-    width: 90%;
-    max-height: 1000px;
-    border-radius: 10px;
-}
-
-#berita .card {
-    border: none;
-    overflow: hidden;
-}
-
 /* Footer */
 
 #con-footer {
     position: relative;
     margin-top: 20px;
-    background-color: rgb(33 37 41);
+    background-color: var(--bs-dark-rgb);
 }
 
 .wrapper-footer {

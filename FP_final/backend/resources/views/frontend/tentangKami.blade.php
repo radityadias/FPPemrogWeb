@@ -24,7 +24,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-8" style="max-width: 500px; background-color: #f6f6f6; border-radius: 10px;">
-          <h2>Tentang Kami</h2>
+          <h2 style="color: #059212;">Solusi Transportasi Terbaik dan Terjamin Demi Kenyamanan Anda Berkendara</h2>
           <br />
           <div>
             <h3>Selamat datang di rental mobil kami.</h3>
@@ -60,7 +60,7 @@
     <div class="container-fluid bg-values">
       <div class="row">
         <div id="values" class="wrapper-us-flex">
-          <img src="../../public/img/visi_misi.png" alt="" />
+          <img src="../../img/visi_misi.png" alt="" />
         </div>
         <div class="col-sm-8">
           <h2>VISI dan MISI</h2>
@@ -86,47 +86,59 @@
   <!-- Container (Members) -->
   <div class="container" id="con-anggota">
     <div id="Anggota" class="container-fluid text-center">
-      <h2>Anggota</h2>
-      <br />
-      <h4>Berpartisipasi dalam Pengembangan Web</h4>
-      <br />
-      <div class="row slideanim">
-        <div class="col-sm-4">
-          <div id="profile" class="wrapper-us-flex"></div>
-          <h4>Muhammad Raditya Nur Aziz</h4>
-          <p>22.11.4733</p>
+        <h2>Anggota</h2>
+        <br />
+        <h4>Berpartisipasi dalam Pengembangan Web</h4>
+        <br />
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <div class="profile">
+                    <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>
+                    <h4>Muhammad Raditya Nur Aziz</h4>
+                    <p>22.11.4733</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="profile">
+                    <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>
+                    <h4>Tigor Neilson Sinaga</h4>
+                    <p>22.11.4725</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="profile">
+                    <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>
+                    <h4>Taufiq Kurniawan Akbar</h4>
+                    <p>22.11.4719</p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <div id="profile" class="wrapper-us-flex"></div>
-          <h4>Tigor Neilson Sinaga</h4>
-          <p>22.11.4725</p>
+        <br /><br />
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <div class="profile">
+                    <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>
+                    <h4>Muhammad Azhar Firdaus</h4>
+                    <p>22.11.4695</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="profile">
+                    <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>
+                    <h4>Alvin Haris Suherdi</h4>
+                    <p>22.11.4711</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="profile">
+                    <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>
+                    <h4>Moh.Figriaone.T.Hi Noor</h4>
+                    <p>22.11.4694</p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <div id="profile" class="wrapper-us-flex"></div>
-          <h4>Taufiq Kurniawan Akbar</h4>
-          <p>22.11.4719</p>
-        </div>
-      </div>
-      <br /><br />
-      <div class="row slideanim">
-        <div class="col-sm-4">
-          <div id="profile" class="wrapper-us-flex"></div>
-          <h4>Muhammad Azhar Firdaus</h4>
-          <p>22.11.4695</p>
-        </div>
-        <div class="col-sm-4">
-          <div id="profile" class="wrapper-us-flex"></div>
-          <h4>Alvin Haris Suherdi</h4>
-          <p>22.11.4711</p>
-        </div>
-        <div class="col-sm-4">
-          <div id="profile" class="wrapper-us-flex"></div>
-          <h4>Moh.Figriaone.T.Hi Noor</h4>
-          <p>22.11.4694</p>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
   <!-- Members END -->
   <!-- Content test END-->
 
