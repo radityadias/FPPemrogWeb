@@ -16,7 +16,7 @@
         rel="stylesheet" />
 </head>
 <body>
-    
+
     @include('frontend.nav')
 
     <div class="container" id="con-berita">
@@ -32,74 +32,33 @@
       <div class="row row-cols-3" id="baris-berita">
         <div class="col">
           <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
+            <img src="../../img/JalanMalioboro.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Mau ke Jogja? Ke sini aja!!</h5>
+              <h5 class="card-title">Jalan Malioboro Yogyakarta</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Nikmati suasana ikonik di Jalan Malioboro, pusat perbelanjaan dan kuliner khas Jogja yang penuh dengan keramaian dan budaya lokal.
               </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
+            <img src="../../img/KratonJogja.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Kraton Jogja</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Jelajahi keindahan dan sejarah Kraton Jogja, istana resmi Kesultanan Yogyakarta yang masih aktif dan menyimpan banyak peninggalan berharga.
               </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
+            <img src="../../img/Alun-alunSelatan.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Alun-alunSelatan</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-3" id="baris-berita">
-        <div class="col">
-          <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Rasakan suasana santai di Alun-alun Selatan, tempat favorit untuk menikmati malam dengan kereta kencana berlampu dan jajanan tradisional.
               </p>
             </div>
           </div>
@@ -108,12 +67,59 @@
       <div class="row row-cols-3" id="baris-berita">
         <div class="col">
           <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
+            <img src="../../img/Pantai_Nglambor.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Pantai Nglambor</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Kagumi keindahan arsitektur Candi Prambanan, kompleks candi Hindu terbesar di Indonesia dengan cerita epik Ramayana.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../img/CandiPrambanan.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Candi Prambanan</h5>
+              <p class="card-text">
+                Jelajahi keindahan bawah laut di Pantai Nglambor, surga snorkeling dengan terumbu karang yang menakjubkan dan berbagai jenis ikan yang berwarna-warni.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../img/Waduk_sermo.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Waduk Sermo</h5>
+              <p class="card-text">
+                Nikmati ketenangan dan keindahan Waduk Sermo, tempat yang sempurna untuk berkemah, memancing, atau sekadar menikmati pemandangan alam yang asri.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-3" id="baris-berita">
+        <div class="col">
+          <div class="card">
+            <img src="../../img/PantaiParangtritis.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pantai Parang Tritis</h5>
+              <p class="card-text">
+                Jelajahi keindahan pesisir selatan Jawa yang memukau dengan pantai-pantai indah, desa-desa nelayan, dan kekayaan budaya lokal yang unik.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../img/LerengGunungMerapi.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lereng Gunung Merapi</h5>
+              <p class="card-text">
+                Saksikan keindahan alam dan petualangan seru di Lereng Gunung Merapi, gunung berapi paling aktif di Indonesia dengan pemandangan spektakuler.
               </p>
             </div>
           </div>
@@ -122,22 +128,9 @@
           <div class="card">
             <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Pesona Pesisir Selatan Jawa</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="../../img/Destinasi1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Jelajahi keindahan pesisir selatan Jawa yang memukau dengan pantai-pantai indah, desa-desa nelayan, dan kekayaan budaya lokal yang unik.
               </p>
             </div>
           </div>
@@ -147,7 +140,7 @@
     </div>
 
     @include('frontend.footer')
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
