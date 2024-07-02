@@ -6,14 +6,14 @@
 .wrapper-judul-konten .container {
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 75px;
 }
 
 #konten {
     padding: 20px;
     margin-bottom: 90px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 100rem;
-
+    height: 97rem;
 }
 
 #konten .card {

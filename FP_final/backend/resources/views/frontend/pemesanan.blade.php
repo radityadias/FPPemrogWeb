@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Cobuddy</title>
   <link rel="stylesheet" href="/frontend-css/nav.css">
     <link rel="stylesheet" href="/frontend-css/footer.css">
     <link rel="stylesheet" href="/frontend-css/pemesanan.css">
@@ -114,7 +114,7 @@
       </div>
       <div class="row">
         <div class="col" id="kolom-button">
-          <button type="submit  " class="btn btn-secondary" id="submit-btn">Pesan</button>
+          <button type="submit" class="btn btn-success" id="submit-btn">Pesan</button>
         </div>
       </div>
       </form> 
@@ -122,34 +122,8 @@
   </div>
   <!-- Pemesanan END -->
 
-  {{-- <!-- Modal markup -->
-      <div class="modal" id="successModal" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h5 class="modal-title">Success!</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                      <p>Pemesanan berhasil dibuat.</p>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-              </div>
-          </div>
-      </div> --}} 
-
   @include('frontend.berita')
   @include ('frontend.footer')
-
-    {{-- <script>
-        @if(session('success'))
-            $(document).ready(function(){
-                $('#successModal').modal('show');
-            });
-        @endif
-    </script> --}}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Cobuddy</title>
 
     <link rel="stylesheet" href="frontend-css/nav.css">
     <link rel="stylesheet" href="frontend-css/footer.css">
@@ -72,7 +72,6 @@
               <h5 class="card-title">Pantai Nglambor</h5>
               <p class="card-text">
                 Kagumi keindahan arsitektur Candi Prambanan, kompleks candi Hindu terbesar di Indonesia dengan cerita epik Ramayana.
-
               </p>
             </div>
           </div>

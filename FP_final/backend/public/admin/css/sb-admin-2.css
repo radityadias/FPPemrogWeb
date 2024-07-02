@@ -10,6 +10,55 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+ .bg-gradient-primary {
+    background: linear-gradient(90deg, #4e73df 10%, #224abe 90%);
+    background-size: cover;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.form-control-user {
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.btn-user {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.text-center a {
+    color: #4e73df;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    color: #224abe;
+    text-decoration: underline;
+}
+
+.alert {
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;

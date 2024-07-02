@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Cobuddy</title>
     <link rel="stylesheet" href="/frontend-css/nav.css">
     <link rel="stylesheet" href="/frontend-css/footer.css">
     <link rel="stylesheet" href="/frontend-css/tentangKami.css">
@@ -23,22 +23,22 @@
   <div class="container" id="con-tentangKami">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-8" style="max-width: 500px; background-color: #f6f6f6; border-radius: 10px;">
-          <h2 style="color: #059212;">Solusi Transportasi Terbaik dan Terjamin Demi Kenyamanan Anda Berkendara</h2>
+        <div class="col-sm-8" style="max-width: 500px; background-color: #f6f6f6; border-radius: 10px; padding: 20px;">
+          <h2 class="text-center">Solusi Transportasi Terbaik dan Terjamin Demi Kenyamanan Anda Berkendara</h2>
           <br />
-          <div>
+          <div style="margin-bottom: 20px;">
             <h3>Selamat datang di rental mobil kami.</h3>
-            <p>
+            <p class="text-secondary">
               Kami menyediakan berbagai jenis mobil yang dapat Anda sewa untuk tujuan penting Anda.
               Kami memberikan pelayanan yang memuaskan, mobil yang terawat, dan harga yang
               kompetitif. Kami mengutamakan kepuasan pelanggan dan berkomitmen untuk memberikan
               pengalaman yang tidak dapat diragukan lagi.
             </p>
           </div>
-          <br />
+          <hr />
           <div>
             <h3>Kenapa Memilih Kami?</h3>
-            <p>
+            <p class="text-secondary">
               Kami menyediakan berbagai jenis mobil yang dilengkapi dengan fitur canggih seperti air
               conditioner, remote lock, dan sistem navigasi. Kami juga menawarkan pengembalian mobil
               gratis jika Anda melewati batas kedalaman air maksimal. Setiap mobil kami dilengkapi
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-values">
+    <div class="container-fluid" style="background-color: #f6f6f6;">
       <div class="row">
         <div id="values" class="wrapper-us-flex">
           <img src="../../img/visi_misi.png" alt="" />
@@ -84,13 +84,13 @@
   </div>
   <!-- INTRO END -->
   <!-- Container (Members) -->
-  <div class="container" id="con-anggota">
+  <div class="container mb-5" id="con-anggota">
     <div id="Anggota" class="container-fluid text-center">
         <h2>Anggota</h2>
         <br />
         <h4>Berpartisipasi dalam Pengembangan Web</h4>
         <br />
-        <div class="row slideanim">
+        <div class="row slideanim ">
             <div class="col-sm-4">
                 <div class="profile">
                     <img src="../../img/ppboy.png" alt="Profile Icon" class="profile-icon"/>

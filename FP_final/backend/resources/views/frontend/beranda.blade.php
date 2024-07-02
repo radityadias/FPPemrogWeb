@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Cobuddy</title>
     <link rel="stylesheet" href="/frontend-css/beranda.css">
     <link rel="stylesheet" href="/frontend-css/nav.css">
     <link rel="stylesheet" href="/frontend-css/footer.css">
     <link rel="stylesheet" href="/frontend-css/berita.css">
+    <script  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
@@ -49,11 +51,9 @@
     <div class="container" id="judul">
         <div style="margin-top: 60px" class="wrapper-judul">
             <div class="container">
-                <h1><b>SOLUSI TERBAIK MENEMANI PERJALANAN ANDA</b></h1>
-                <p>
-                    Kami mengerti bahwa setiap orang memiliki kebutuhan transportasi yang beragam. Karena itu kami
-                    menawarkan layanan sewa berbagai kendaraan sebagai solusi untuk memenuhi kebutuhan transportasi
-                    kalian.
+                <h1><b>Solusi <span class="typing"></span></b></h1>
+                <h1><b>Untuk Menemani Perjalanan Anda</b></h1>
+                <p>Kami mengerti bahwa setiap orang memiliki kebutuhan transportasi yang beragam. Karena itu kami menawarkan layanan sewa berbagai kendaraan sebagai solusi untuk memenuhi kebutuhan transportasi kalian.
                 </p>
             </div>
         </div>
@@ -173,6 +173,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script>
+    var typed = new Typed(".typing", {
+    strings: ["Terbaik", "Termurah", "Terpercaya"],
+    typeSpeed: 150,
+    backSpeed: 100,
+    loop: true,
+  });
     </script>
 </body>
 

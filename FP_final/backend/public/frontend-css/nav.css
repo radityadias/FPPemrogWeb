@@ -1,72 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  transition: top 0.3s;
-  color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: top 0.3s;
+    color: white;
 }
 .container {
-  height: 60px;
+    height: 60px;
 }
 
 .navbar.sticky {
-  top: -60px;
+    top: -60px;
 }
 
 .navbar-brand {
-  padding: 0;
-  color: white;
+    padding: 0;
+    color: white;
 }
 
 .navbar .logo {
-  width: 100px;
-  /* Atur lebar gambar */
-  height: auto;
-  /* Biarkan ketinggian mengikuti proporsi asli */
-  display: block;
-  /* Pastikan gambar muncul sebagai blok */
-  margin-bottom: -20px;
-  margin-top: -10px;
+    width: 100px;
+    /* Atur lebar gambar */
+    height: auto;
+    /* Biarkan ketinggian mengikuti proporsi asli */
+    display: block;
+    /* Pastikan gambar muncul sebagai blok */
+    margin-bottom: -20px;
+    margin-top: -10px;
 }
 
 .dropdown {
-  margin-right: auto;
-  text-align: right;
+    margin-right: auto;
+    text-align: right;
 }
 
 .nav-item {
-  color: white;
-  margin-left: 20px;
-  /* border-radius: 30px;
+    color: white;
+    margin-left: 20px;
+    transition: transform 0.1s ease;
+    /* border-radius: 30px;
 background: rgb(0,185,193);
 background: linear-gradient(360deg, rgba(0,185,193,1) 0%, rgba(0,106,190,1) 100%);
   box-shadow: 0px 0px 3px 0px rgba(250, 251, 250, 0.17); */
 }
 
-/* .nav-item:hover {
-
-  /* background: rgb(0, 94, 39);
-  background: linear-gradient(0deg, rgba(0, 94, 39, 1) 0%, rgba(0, 92, 63, 1) 100%);
-  box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.244); 
-} */
+.nav-item.warna {
+    color: #18e43e; /* Warna teks untuk penanda */
+    font-weight: bold;
+}
+.nav-item:hover {
+    transform: scale(1.05);
+}
 
 .nav-link {
-  color: rgb(255, 255, 255);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
-
 
 .nav-link:hover {
-      color: rgb(169, 169, 169); /* Warna font saat di-hover */
-}
-
-a
-{
-  color: white;
+    color: white; /* Warna font saat di-hover */
 }

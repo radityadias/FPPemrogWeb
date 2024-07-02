@@ -14,6 +14,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     height: 47rem;
     margin-bottom: 40px;
+    margin-top: 70px;
     background-color: rgba(128, 128, 128, 0.06);
 }
 
@@ -48,6 +49,7 @@
 #kolom-button {
     text-align: center;
     margin-bottom: 25px;
+    display: block;
 }
 
 .btn:hover {
@@ -56,4 +58,39 @@
 
 .btn:active {
     background-color: #004080;
+}
+
+.popup {
+    display: none; /* Default tidak ditampilkan */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #888;
+    background-color: white;
+    z-index: 1000;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

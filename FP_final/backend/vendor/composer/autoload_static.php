@@ -508,9 +508,10 @@ class ComposerStaticInit460fb41bb7b60798fef5fc34ce2541f2
     );
 
     public static $classMap = array (
-        'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
-        'App\\Http\\Controllers\\MobilController' => __DIR__ . '/../..' . '/app/Http/Controllers/MobilController.php',
+        'App\\Http\\Controllers\\PemesananController' => __DIR__ . '/../..' . '/app/Http/Controllers/PemesananController.php',
+        'App\\Http\\Controllers\\SliderController' => __DIR__ . '/../..' . '/app/Http/Controllers/SliderController.php',
         'App\\Models\\Mobil' => __DIR__ . '/../..' . '/app/Models/Mobil.php',
+        'App\\Models\\Pemesanan' => __DIR__ . '/../..' . '/app/Models/Pemesanan.php',
         'App\\Models\\Slider' => __DIR__ . '/../..' . '/app/Models/Slider.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
