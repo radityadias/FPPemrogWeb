@@ -62,7 +62,7 @@
     <div class="container" id="rekomendasi-mobil">
         <div class="wrapper-daftar">
             <div class="container">
-                <h2 style="margin-top: 80px">Daftar Mobil</h2>
+                <h2 style="margin-top:200px">Daftar Mobil</h2>
             </div>
         </div>
     </div>
@@ -75,34 +75,34 @@
                         <img src="../../img/mobil3.jpg" class="card-img-top" alt="Avanza 2015" />
                         <div class="card-body">
                             <h6>Avanza 2015</h6>
-                            <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
+                            <a href="/mobil" class="btn btn-outline-primary">Cek Mobil</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow-sm">
-                        <img src="../../img/mobil3.jpg" class="card-img-top" alt="Toyota 2025" />
+                        <img src="../../img/mobil4.jpg" class="card-img-top" alt="Toyota 2025" />
                         <div class="card-body">
-                            <h6>Toyota 2025</h6>
-                            <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
+                            <h6>Honda 2025</h6>
+                            <a href="/mobil" class="btn btn-outline-primary">Cek Mobil</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow-sm">
-                        <img src="../../img/mobil3.jpg" class="card-img-top" alt="Mitsubishi 2021" />
+                        <img src="../../img/mobil7.jpg" class="card-img-top" alt="Mitsubishi 2021" />
                         <div class="card-body">
-                            <h6>Mitsubishi 2021</h6>
-                            <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
+                            <h6>KIA 2021</h6>
+                            <a href="/mobil" class="btn btn-outline-primary">Cek Mobil</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow-sm">
-                        <img src="../../img/mobil4.jpg" class="card-img-top" alt="AGIA 2020" />
+                        <img src="../../img/mobil5.jpeg" class="card-img-top" alt="AGIA 2020" />
                         <div class="card-body">
                             <h6>AGIA 2020</h6>
-                            <button type="button" class="btn btn-outline-primary">Cek Mobil</button>
+                            <a href="/mobil" class="btn btn-outline-primary">Cek Mobil</a>
                         </div>
                     </div>
                 </div>

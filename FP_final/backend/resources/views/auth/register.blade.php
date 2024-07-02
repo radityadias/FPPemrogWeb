@@ -23,6 +23,8 @@
           <div class="col">
             <div class="card-body ">
               <div class="text-center">
+              <img src="{{ asset('img/Logo 2.png') }}" style="width: 120px">
+
                 <h1 class="h4 text-gray-900 mb-4">Buat Akun!</h1>
               </div>
               <form action="{{ route('register.save') }}" method="POST" class="user">
