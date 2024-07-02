@@ -14,6 +14,12 @@ class PemesananController extends Controller
         return view('frontend.pemesanan', compact('pemesanan'));
     }
 
+    public function show()
+    {
+        $dataPesanan = Pemesanan::all();
+        return view('dashboard', compact('dataPesanan'));
+    }
+
     public function create()
     {
         return view('pemesanan.create');

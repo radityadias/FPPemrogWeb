@@ -34,6 +34,10 @@ Route::get('/footer', function () {
     return view('frontend.footer');
 })->name('footer');
 
+Route::get('/dashboard/mobil', function(){
+    return view('mobil');
+})->name('adminMobil');
+
 // Backend
 
 // Slider Controller
@@ -76,3 +80,8 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::resource('pesanForm', PemesananController::class);
+
+Route::get('/dashboard', [PemesananController::class, 'show']);
+
+Route::resource('mobilForm', MobilController::class);
+Route::get('/dashboard/mobil', [MobilController::class, 'show'])->name('adminMobil');
