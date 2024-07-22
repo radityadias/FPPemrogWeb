@@ -63,7 +63,7 @@
 
         </div>
         <!-- End of Content Wrapper -->
-        @include('layouts.footer')
+        <!-- @include('layouts.footer') -->
     </div>
     <!-- End of Page Wrapper -->
 

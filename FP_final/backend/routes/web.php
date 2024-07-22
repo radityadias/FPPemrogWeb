@@ -57,19 +57,18 @@ Route::middleware('auth')->group(function () {
         Route::get('dashboard/beranda', 'HomeSlider')->name('home.slide');
     });
 
-    // Mobil routes
-    Route::prefix('mobils')->controller(MobilController::class)->group(function () {
-        Route::get('', 'index')->name('mobils.index');
-        Route::get('create', 'create')->name('mobils.create');
-        Route::post('store', 'store')->name('mobils.store');
-        Route::get('show/{id}', 'show')->name('mobils.show');
-        Route::get('edit/{id}', 'edit')->name('mobils.edit');
-        Route::put('edit/{id}', 'update')->name('mobils.update');
-        Route::delete('destroy/{id}', 'destroy')->name('mobils.destroy');
-    });
 
     // Profile route
     Route::get('/profile', [AuthController::class, 'profile'])->name('profile');
 });
 
-Route::resource('pesanForm', PemesananController::class);
+
+
+Route::get('/dashboard', [PemesananController::class, 'show'])->name('dashboard');
+
+Route::post('/', [PemesananController::class, 'store'])->name('pesanForm.store');
+
+
+Route::get('/mobil/admin', [MobilController::class, 'show'])->name('adminMobil');
+Route::get('/mobil/create', [MobilController::class, 'create'])->name('mobil.create');
+Route::post('/mobil', [MobilController::class, 'store'])->name('mobil.store');

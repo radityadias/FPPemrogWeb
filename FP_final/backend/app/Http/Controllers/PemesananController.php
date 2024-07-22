@@ -35,8 +35,7 @@ class PemesananController extends Controller
             'tgl_pinjam' => 'required|date',
             'tgl_kembali' => 'required|date',
             'mobil' => 'required',
-            
-        ],[
+        ], [
             'nama.required' => 'Nama harus diisi',
             'email.required' => 'Email harus diisi',
             'email.email' => 'Email harus valid',
@@ -46,24 +45,24 @@ class PemesananController extends Controller
             'tgl_pinjam.required' => 'Tanggal Pinjam harus diisi',
             'tgl_kembali.required' => 'Tanggal Kembali harus diisi',
             'mobil.required' => 'Mobil harus diisi',    
-
-        ] );
+        ]);
 
         Pemesanan::create($request->all());
 
-        return redirect()->route('pemesanan')->with('success', 'Pemesanan Created Successfully');
+        return redirect()->back()->with('success', 'Pemesanan Created Successfully');
+
     }
 
-//     public function show(Pemesanan $pemesanan)
-//     {
-//         return view('pemesananForm.show', compact('pemesanan'));
-//     }
+    // Uncommented methods if needed in the future
+    // public function show(Pemesanan $pemesanan)
+    // {
+    //     return view('pemesananForm.show', compact('pemesanan'));
+    // }
 
-//     public function destroy(Pemesanan $pemesanan)
-//     {
-//         $pemesanan->delete();
+    // public function destroy(Pemesanan $pemesanan)
+    // {
+    //     $pemesanan->delete();
 
-//         return redirect()->route('pemesananFOrm.index')->with('success', 'Pemesanan deleted successfully.');
-//     }
-// }
+    //     return redirect()->route('pemesananForm.index')->with('success', 'Pemesanan deleted successfully.');
+    // }
 }

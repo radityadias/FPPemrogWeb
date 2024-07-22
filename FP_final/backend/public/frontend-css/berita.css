@@ -70,7 +70,7 @@
     flex-shrink: 0;
 }
 
-.card:hover {
+#berita .card:hover {
     transform: scale(1.05); /* Efek zoom saat hover */
 }
 

@@ -1,9 +1,10 @@
 @extends('layouts.app')
-  
-@section('title', 'Dashboard Admin')
-  {{-- Data Pemesanan --}}
+
+{{-- Data Pemesanan --}}
 @section('contents')
-  <div class="container border" id="con-dataPemesanan"> 
+
+<h1 class="text-gray-900 mb-5">Selamat Datang Kembali, {{ auth()->user()->name }}!</h1>
+<div class="container border" id="con-dataPemesanan"> 
     <div class="row">
         <div class="col-12">
             <h2 class="mb-4">Data Pemesanan</h2>
@@ -20,7 +21,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($dataPesanan ?? [] as $user)
+                    @foreach($dataPesanan as $user)
                         <tr>
                             <td>{{ $user->id_pemesanan }}</td>
                             <td>{{ $user->nama }}</td>
@@ -36,16 +37,10 @@
             </table>
         </div>
     </div>
-  </div>
+</div>
 
-  
-  
 @endsection
 
-<style scoped>
-  .col
-  {
-    border: 1px solid black;
-  }
+@section('styles')
 
-</style>
+@endsection

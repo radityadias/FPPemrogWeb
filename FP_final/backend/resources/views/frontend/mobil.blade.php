@@ -82,7 +82,6 @@
             </div>
           <!-- Kolom 2 -->
           <div class="col">
-            <a href="#" class="link-konten">
               <div class="card">
                 <img src="../../img/briors.png" class="card-img-active" alt="..." />
                 <div class="card-body">
@@ -127,11 +126,9 @@
                   </div>
                 </div>
               </div>
-            </a>
           </div>
           <!-- Kolom 3 -->
           <div class="col">
-              <a href="#" class="link-konten">
                 <div class="card">
                   <img src="../../img/kia seltos.png" class="card-img-active" alt="..." />
                   <div class="card-body">
@@ -176,14 +173,12 @@
                     </div>
                   </div>
                 </div>
-              </a>
             </div>
         </div>
         <!-- Baris 2 -->
         <div class="row">
             <!-- Kolom 1 -->
             <div class="col">
-              <a href="#" class="link-konten">
                 <div class="card">
                   <img src="../../img/nissan livina.png" class="card-img-active" alt="..." />
                   <div class="card-body">
@@ -228,11 +223,9 @@
                     </div>
                   </div>
                 </div>
-              </a>
             </div>
             <!-- Kolom 2 -->
             <div class="col">
-              <a href="#" class="link-konten">
                 <div class="card">
                   <img src="../../img/misubishi pajero.png" class="card-img-active" alt="..." />
                   <div class="card-body">
@@ -277,9 +270,7 @@
                     </div>
                   </div>
                 </div>
-            
-            </a>
-        </div>
+              </div>
             <!-- Kolom 3 -->
         <div class="col">
             <div class="card">
@@ -331,7 +322,6 @@
         <div class="row">
           <!-- Kolom 1 -->
           <div class="col">
-            <a href="#" class="link-konten">
               <div class="card">
                 <img src="../../img/suzuki ertiga.png" class="card-img-active" alt="..." />
                 <div class="card-body">
@@ -376,11 +366,9 @@
                   </div>
                 </div>
               </div>
-            </a>
           </div>
           <!-- Kolom 2 -->
           <div class="col">
-            <a href="#" class="link-konten">
               <div class="card">
                 <img src="../../img/briosatya.png" class="card-img-active" alt="..." />
                 <div class="card-body">
@@ -425,11 +413,9 @@
                   </div>
                 </div>
               </div>
-            </a>
           </div>
           <!-- Kolom 3-->
           <div class="col">
-            <a href="#" class="link-konten">
               <div class="card">
                 <img src="../../img/fortuner 5.png" class="card-img-active" alt="..." />
                 <div class="card-body">
@@ -474,7 +460,6 @@
                   </div>
                 </div>
               </div>
-            </a>
           </div>
       </div>
       </div>

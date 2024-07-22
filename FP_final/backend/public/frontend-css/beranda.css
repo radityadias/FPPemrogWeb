@@ -1,4 +1,7 @@
 /* Carousel */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .carousel {
     width: clamp(200px, 83%, 1500px);
     height: auto;

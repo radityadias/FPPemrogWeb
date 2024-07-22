@@ -14,9 +14,15 @@ class MobilController extends Controller
         return view('mobil', compact('kendaraan'));
     }
 
+    public function showMobil()
+    {
+        $kendaraanMobil = Mobil::all();
+        return view('tampilMobil', compact('kendaraanMobil'));
+    }
+
     public function create()
     {
-        return view('mobil.create');
+        return view('mobil.store');
     }
 
     public function store(Request $request)

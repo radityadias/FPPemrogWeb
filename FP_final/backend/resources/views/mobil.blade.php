@@ -5,7 +5,7 @@
 
 <div class="container-fluid">
     <h5>Informasi Mobil</h5>
-    <form action="{{ route('mobilForm.store') }}" method="POST">
+    <form action="{{ route('mobil.store') }}" method="POST">
         @csrf
         <div class="row row-cols-2">
             <div class="col">
@@ -36,7 +36,12 @@
                 <label for="bagasi">Bagasi</label>
                 <br />
                 <div class="input-group mb-3">
-                    <input name="bagasi" id="bagasi" type="text" class="form-control @error('bagasi')is-invalid @enderror" placeholder="Masukkan Kapasitas Bagasi" />
+                    <select name="bagasi" id="bagasi" class="form-control @error('bagasi')is-invalid @enderror">
+                        <option value="">Pilih Kapasitas Bagasi</option>
+                        <option value="Kecil">Kecil</option>
+                        <option value="Sedang">Sedang</option>
+                        <option value="Besar">Besar</option>
+                    </select>
                     @error('bagasi')
                         <span class="invalid-feedback">{{ $message }}</span>
                     @enderror
@@ -47,7 +52,11 @@
                 <label for="transmisi">Transmisi</label>
                 <br />
                 <div class="input-group mb-3">
-                    <input name="transmisi" id="transmisi" type="text" class="form-control @error('transmisi')is-invalid @enderror" placeholder="Masukkan Jenis Transmisi" />
+                    <select name="transmisi" id="transmisi" class="form-control @error('transmisi')is-invalid @enderror">
+                        <option value="">Pilih Jenis Transmisi</option>
+                        <option value="Manual">Manual</option>
+                        <option value="Otomatis">Otomatis</option>
+                    </select>
                     @error('transmisi')
                         <span class="invalid-feedback">{{ $message }}</span>
                     @enderror
@@ -60,7 +69,11 @@
                 <label for="bahan-bakar">Bahan Bakar</label>
                 <br />
                 <div class="input-group mb-3">
-                    <input name="bahan_bakar" id="bahan-bakar" type="text" class="form-control @error('bahan_bakar')is-invalid @enderror" placeholder="Masukkan Jenis Bahan Bakar" />
+                    <select name="bahan_bakar" id="bahan-bakar" class="form-control @error('bahan_bakar')is-invalid @enderror">
+                        <option value="">Pilih Jenis Bahan Bakar</option>
+                        <option value="Bensin">Bensin</option>
+                        <option value="Listrik">Listrik</option>
+                    </select>
                     @error('bahan_bakar')
                         <span class="invalid-feedback">{{ $message }}</span>
                     @enderror
@@ -71,7 +84,11 @@
                 <label for="status">Status</label>
                 <br />
                 <div class="input-group mb-3">
-                    <input name="status" id="status" type="text" class="form-control @error('status')is-invalid @enderror" placeholder="Masukkan Status Mobil" />
+                    <select name="status" id="status" class="form-control @error('status')is-invalid @enderror">
+                        <option value="">Pilih Status Mobil</option>
+                        <option value="Tersedia">Tersedia</option>
+                        <option value="Digunakan">Digunakan</option>
+                    </select>
                     @error('status')
                         <span class="invalid-feedback">{{ $message }}</span>
                     @enderror
@@ -119,7 +136,6 @@
             </table>
         </div>
     </div>
-  </div>
-
+</div>
 
 @endsection
