@@ -12,10 +12,6 @@
     height: 60px;
 }
 
-.navbar.sticky {
-    top: -60px;
-}
-
 .navbar-brand {
     padding: 0;
     color: white;

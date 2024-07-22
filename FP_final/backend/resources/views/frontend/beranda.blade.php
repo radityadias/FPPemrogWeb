@@ -64,14 +64,18 @@
             <div class="container">
                 <h2 style="margin-top:200px">Daftar Mobil</h2>
             </div>
+            
         </div>
     </div>
+
+    <a href="mobil" class="more-link"> Selengkapnya <i class="bi bi-arrow-right"></i></a>
+
 
     <div class="container" id="card">
         <div class="wrapper-card">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-80 shadow-sm">
                         <img src="../../img/mobil3.jpg" class="card-img-top" alt="Avanza 2015" />
                         <div class="card-body">
                             <h6>Avanza 2015</h6>
@@ -80,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-80 shadow-sm">
                         <img src="../../img/mobil4.jpg" class="card-img-top" alt="Toyota 2025" />
                         <div class="card-body">
                             <h6>Honda 2025</h6>
@@ -89,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-80 shadow-sm">
                         <img src="../../img/mobil7.jpg" class="card-img-top" alt="Mitsubishi 2021" />
                         <div class="card-body">
                             <h6>KIA 2021</h6>
@@ -98,7 +102,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-80 shadow-sm">
                         <img src="../../img/mobil5.jpeg" class="card-img-top" alt="AGIA 2020" />
                         <div class="card-body">
                             <h6>AGIA 2020</h6>
