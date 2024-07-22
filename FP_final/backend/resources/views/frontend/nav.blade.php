@@ -63,7 +63,6 @@ $(".scroll-up-btn").click(function () {
     $(".navbar-collapse").toggleClass("show");
   });
 </script>
-    
 </body>
 </html>
 

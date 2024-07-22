@@ -34,7 +34,6 @@
         <div class="row">
             <!-- Kolom 1 -->
             <div class="col">
-              <a href="#" class="link-konten">
                 <div class="card">
                   <img src="../../img/Daihastu.png" class="card-img-active" alt="..." />
                   <div class="card-body">
@@ -79,7 +78,7 @@
                     </div>
                   </div>
                 </div>
-              </a>
+            
             </div>
           <!-- Kolom 2 -->
           <div class="col">
@@ -282,12 +281,11 @@
             </a>
         </div>
             <!-- Kolom 3 -->
-            <div class="col">
-          <a href="#" class="link-konten">
+        <div class="col">
             <div class="card">
               <img src="../../img/toyota avanza.png" class="card-img-active" alt="..." />
               <div class="card-body">
-                <h5>Toyota <A></A></h5>
+                <h5>Toyota</h5>
                 <div class="row row-cols-4">
                   <div class="col" id="col-logo" style="margin-right: -40px;">
                     <img src="../../img/car-seat.png" alt="" style="max-width: 35px; margin-top: 5px;">
@@ -328,7 +326,6 @@
                 </div>
               </div>
             </div>
-          </a>
          </div>
         <!-- Baris 3 -->
         <div class="row">

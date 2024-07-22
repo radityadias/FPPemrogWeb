@@ -48,12 +48,10 @@
           </div>
         </div>
         <div class="wrapper-us-flex">
-          <img
-            src="/img/tentangkami.png"
-            alt=""
-            style="max-width: 500px; height: 500px;border-radius: 5cm;margin-left: 180px;"
-          />
-        </div>
+          <div class="animasi">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/950c1bd0-a720-4e8f-9627-9a4bad44677c/4NdmjWoimk.json" background="transparent" speed="1" style="width: 500px; height: 500px" direction="1" playMode="normal" loop autoplay></dotlottie-player>        </div>
+
+          </div>
       </div>
     </div>
 
