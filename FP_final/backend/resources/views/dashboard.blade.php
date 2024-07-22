@@ -20,7 +20,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($dataPesanan as $user)
+                    @foreach($dataPesanan ?? [] as $user)
                         <tr>
                             <td>{{ $user->id_pemesanan }}</td>
                             <td>{{ $user->nama }}</td>
