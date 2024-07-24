@@ -43,7 +43,7 @@ class AuthController extends Controller {
     {
         Validator::make($request->all(), [
             'email' => 'required|email',
-            'password' => 'required|string|min:8'
+            'password' => 'required|string'
         ])->validate();
 
         if (!Auth::attempt($request->only('email', 'password'), $request->boolean('remember'))) {

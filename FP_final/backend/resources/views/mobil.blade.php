@@ -104,7 +104,7 @@
     </form> 
 </div>
 
-<div class="container mt-5"> {{-- Data Mobil --}}
+<div class="container mt-1"> {{-- Data Mobil --}}
     <div class="row">
         <div class="col-12">
             <h2 class="mb-4">Daftar Mobil</h2>
